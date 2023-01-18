@@ -16,11 +16,18 @@
 package com.hover.stax.ui.theme
 
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material.Shapes
 import androidx.compose.ui.unit.dp
 
-val Shapes = Shapes(
-    small = RoundedCornerShape(4.dp),
-    medium = RoundedCornerShape(4.dp),
-    large = RoundedCornerShape(0.dp)
+val ExtraSmallRadius = 0.dp
+val SmallRadius = 4.dp
+val MediumRadius = 8.dp
+val LargeRadius = 16.dp
+val ExtraLargeRadius = 24.dp
+
+val Shapes = androidx.compose.material3.Shapes(
+    extraSmall = RoundedCornerShape(ExtraSmallRadius),
+    small = RoundedCornerShape(SmallRadius),
+    medium = RoundedCornerShape(MediumRadius),
+    large = RoundedCornerShape(LargeRadius),
+    extraLarge = RoundedCornerShape(ExtraLargeRadius)
 )

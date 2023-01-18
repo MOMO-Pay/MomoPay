@@ -60,7 +60,7 @@ fun StaxTheme(darkTheme: Boolean = isSystemInDarkTheme(), content: @Composable (
     MaterialTheme(
         colors = colors,
         typography = Typography,
-        shapes = Shapes,
+//        shapes = Shapes,
         content = content
     )
 }
