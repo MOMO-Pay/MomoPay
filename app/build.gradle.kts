@@ -183,6 +183,9 @@ dependencies {
 
     implementation(libs.lingver)
 
+//    implementation(libs.statemachine)
+    implementation("com.tinder.statemachine:statemachine:0.2.0")
+
     // Images
     implementation(libs.bundles.image)
     kapt(libs.glide.compiler)
