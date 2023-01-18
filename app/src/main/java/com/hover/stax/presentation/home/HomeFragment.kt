@@ -15,6 +15,7 @@
  */
 package com.hover.stax.presentation.home
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -30,6 +31,7 @@ import com.hover.stax.databinding.FragmentHomeBinding
 import com.hover.stax.domain.model.Account
 import com.hover.stax.home.MainActivity
 import com.hover.stax.hover.AbstractBalanceCheckerFragment
+import com.hover.stax.ui.views.money.SendMoneyActivity
 import com.hover.stax.utils.AnalyticsUtil
 import com.hover.stax.utils.NavUtil
 import com.hover.stax.utils.UIHelper
@@ -79,7 +81,10 @@ class HomeFragment : AbstractBalanceCheckerFragment(), FinancialTipClickInterfac
         fun onClickedRewards() = navigateTo(HomeFragmentDirections.actionGlobalRewardsFragment())
 
         return HomeClickFunctions(
-            onSendMoneyClicked = { onSendMoneyClicked() },
+            onSendMoneyClicked = {
+                startActivity(Intent(requireContext(), SendMoneyActivity::class.java))
+//                onSendMoneyClicked()
+                                 },
             onBuyAirtimeClicked = { onBuyAirtimeClicked() },
             onBuyGoodsClicked = { onBuyGoodsClicked() },
             onPayBillClicked = { onPayBillClicked() },
