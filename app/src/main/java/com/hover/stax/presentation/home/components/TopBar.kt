@@ -32,8 +32,10 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.painterResource
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.hover.stax.R
+import com.hover.stax.ui.views.money.send.SendMoney
 import com.hover.stax.utils.network.NetworkMonitor
 
 @Composable
@@ -49,7 +51,7 @@ fun TopBar(@StringRes title: Int = R.string.app_name, navTo: (dest: Int) -> Unit
             drawable = R.drawable.stax_logo,
             stringRes = title,
             modifier = Modifier.weight(1f),
-            MaterialTheme.typography.button
+            textStyle = MaterialTheme.typography.button
         )
 
         if (!hasNetwork) {
@@ -59,7 +61,7 @@ fun TopBar(@StringRes title: Int = R.string.app_name, navTo: (dest: Int) -> Unit
                 modifier = Modifier
                     .align(Alignment.CenterVertically)
                     .padding(horizontal = 16.dp),
-                MaterialTheme.typography.button
+                textStyle = MaterialTheme.typography.button
             )
         }
 
@@ -74,4 +76,10 @@ fun TopBar(@StringRes title: Int = R.string.app_name, navTo: (dest: Int) -> Unit
                 .size(30.dp),
         )
     }
+}
+
+@Preview
+@Composable
+fun TopBarPreview() {
+    TopBar(title = R.string.nav_send_money) {}
 }
