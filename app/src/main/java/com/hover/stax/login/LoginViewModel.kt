@@ -73,6 +73,7 @@ class LoginViewModel(
         val task = GoogleSignIn.getSignedInAccountFromIntent(data)
         try {
             val account = task.getResult(ApiException::class.java)!!
+            Timber.d("SAMAAAA ${account.idToken}")
             setUser(account, account.idToken!!)
         } catch (e: ApiException) {
             Timber.e(e, "Google sign in failed")

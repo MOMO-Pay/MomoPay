@@ -5,11 +5,19 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.res.stringResource
+import androidx.navigation.NavController
 import androidx.navigation.compose.NavHost
+import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
+import androidx.navigation.fragment.NavHostFragment.Companion.findNavController
+import androidx.navigation.fragment.findNavController
 import com.google.accompanist.navigation.material.ExperimentalMaterialNavigationApi
 import com.google.accompanist.navigation.material.ModalBottomSheetLayout
+import com.google.accompanist.navigation.material.bottomSheet
 import com.google.accompanist.navigation.material.rememberBottomSheetNavigator
+import com.hover.stax.ui.views.money.choose.PaymentTypeScreen
+import com.hover.stax.ui.views.money.send.SendMoney
 
 @OptIn(ExperimentalMaterialNavigationApi::class)
 @Composable
@@ -30,10 +38,29 @@ fun MainNavHost() {
     ) {
         NavHost(
             navController = navController,
-            startDestination = Flow.Root.route
+            startDestination = PaymentScreens.SendMoney.route
         ) {
 
-            paymentTypeNavHost(navController, bottomSheetConfig)
+            composable(route = PaymentScreens.SendMoney.route) {
+                SendMoney(navTo = { navigate(PaymentScreens.PaymentTypeScreen.route, navController) })
+            }
+
+            bottomSheet(PaymentScreens.PaymentTypeScreen.route) {
+                bottomSheetConfig.value = DefaultBottomSheetConfig
+                PaymentTypeScreen(
+                    onClickBack = { navController.navigateUp() }
+                )
+            }
         }
+    }
+}
+
+fun navigate(route: String, navController: NavController) {
+    navController.navigate(route)
+}
+
+fun navigateWithPop(route: String, navController: NavController) {
+    navController.navigate(route) {
+        popUpTo(PaymentScreens.SendMoney.route) { inclusive = true }
     }
 }
