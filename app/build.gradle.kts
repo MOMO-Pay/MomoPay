@@ -15,15 +15,8 @@ plugins {
     id("kotlinx-serialization")
 }
 
-configurations.all {
-    resolutionStrategy {
-        eachDependency {
-            if ((requested.group == "org.jetbrains.kotlin") && (requested.name.startsWith("kotlin-stdlib"))) {
-                useVersion("1.8.0")
-            }
-        }
-    }
-}
+group = "com.hover"
+version = "1.19.1"
 
 android {
 
@@ -36,7 +29,7 @@ android {
         minSdk = 21
         targetSdk = 33
         versionCode = 211
-        versionName = "1.19.1"
+        versionName = project.version.toString()
         vectorDrawables.useSupportLibrary = true
         multiDexEnabled = true
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
@@ -160,10 +153,7 @@ dependencies {
 
     // compose
     implementation(libs.bundles.compose)
-
-    debugImplementation("androidx.customview:customview:1.2.0-alpha01")
-    debugImplementation("androidx.customview:customview-poolingcontainer:1.0.0-alpha01")
-//    debugImplementation(libs.compose.tooling)
+    debugImplementation(libs.compose.tooling)
     androidTestImplementation(libs.compose.ui.test)
 
     // logging
@@ -196,8 +186,6 @@ dependencies {
 
     implementation(libs.lingver)
 
-    implementation(libs.statemachine)
-
     // Images
     implementation(libs.bundles.image)
     kapt(libs.glide.compiler)
@@ -221,3 +209,12 @@ dependencies {
     "stagingImplementation"(libs.bundles.hover)
     "productionImplementation"(libs.hover)
 }
+
+abstract class VersionTask : DefaultTask() {
+    @TaskAction
+    fun printVersion() {
+        println(project.version)
+    }
+}
+
+tasks.register<VersionTask>("printVersion")
