@@ -23,9 +23,8 @@ import com.hover.stax.views.compose.StaxLayout
 import com.hover.stax.views.compose.StaxModalCell
 import org.koin.androidx.compose.koinViewModel
 
-
 @Composable
-fun PaymentTypeScreen(
+fun PayWithScreen(
     viewModel: SendMoneyViewModel = koinViewModel(),
     onClickBack: () -> Unit
 ) {
@@ -40,7 +39,7 @@ fun PaymentTypeScreen(
         },
         content = {
             items(state.items) { item ->
-                PaymentTypeItem(
+                PayWithItem(
                     onClick = {
 //                        viewModel.dispatch(ThemeAction.SelectTheme(item))
                     },
@@ -54,7 +53,7 @@ fun PaymentTypeScreen(
 
 @SuppressLint("InlinedApi")
 @Composable
-private fun PaymentTypeItem(
+private fun PayWithItem(
     onClick: () -> Unit,
     item: PaymentTypeItem,
 ) {
