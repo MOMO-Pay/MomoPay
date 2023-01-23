@@ -19,9 +19,11 @@ import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
+import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import com.hover.stax.ui.theme.AlphaDisabled
 import com.hover.stax.ui.theme.AlphaHigh
+import com.hover.stax.ui.theme.StaxTheme
 
 @Composable
 fun StaxModalCell(
@@ -90,5 +92,13 @@ fun StaxModalCell(
                 }
             }
         }
+    }
+}
+
+@Preview
+@Composable
+fun StaxModalCell() {
+    StaxTheme {
+        StaxModalCell(onClick = {}, text = "Cell")
     }
 }
