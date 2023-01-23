@@ -150,7 +150,10 @@ dependencies {
 
     // compose
     implementation(libs.bundles.compose)
-    debugImplementation(libs.compose.tooling)
+
+    debugImplementation("androidx.customview:customview:1.2.0-alpha01")
+    debugImplementation("androidx.customview:customview-poolingcontainer:1.0.0-alpha01")
+//    debugImplementation(libs.compose.tooling)
     androidTestImplementation(libs.compose.ui.test)
 
     // logging
@@ -183,8 +186,7 @@ dependencies {
 
     implementation(libs.lingver)
 
-//    implementation(libs.statemachine)
-    implementation("com.tinder.statemachine:statemachine:0.2.0")
+    implementation(libs.statemachine)
 
     // Images
     implementation(libs.bundles.image)
