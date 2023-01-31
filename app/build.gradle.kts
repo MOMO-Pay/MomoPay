@@ -15,6 +15,16 @@ plugins {
     id("kotlinx-serialization")
 }
 
+configurations.all {
+    resolutionStrategy {
+        eachDependency {
+            if ((requested.group == "org.jetbrains.kotlin") && (requested.name.startsWith("kotlin-stdlib"))) {
+                useVersion("1.8.0")
+            }
+        }
+    }
+}
+
 group = "com.hover"
 version = "1.19.4"
 

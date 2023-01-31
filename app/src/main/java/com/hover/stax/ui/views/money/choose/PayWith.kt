@@ -16,7 +16,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.unit.dp
 import com.hover.stax.R
-import com.hover.stax.ui.views.money.data.PaymentTypeItem
 import com.hover.stax.ui.views.money.viewmodel.SendMoneyViewModel
 import com.hover.stax.views.compose.StaxHeader
 import com.hover.stax.views.compose.StaxLayout
@@ -28,7 +27,7 @@ fun PayWithScreen(
     viewModel: SendMoneyViewModel = koinViewModel(),
     onClickBack: () -> Unit
 ) {
-    val state by viewModel.state.collectAsState()
+//    val state by viewModel.state.collectAsState()
 
     StaxLayout(
         title = {
@@ -38,15 +37,15 @@ fun PayWithScreen(
             )
         },
         content = {
-            items(state.items) { item ->
-                PayWithItem(
-                    onClick = {
-//                        viewModel.dispatch(ThemeAction.SelectTheme(item))
-                    },
-                    item = item
-                )
-                Spacer(Modifier.height(8.dp))
-            }
+//            items(state.items) { item ->
+//                PayWithItem(
+//                    onClick = {
+////                        viewModel.dispatch(ThemeAction.SelectTheme(item))
+//                    },
+////                    item = item
+//                )
+//                Spacer(Modifier.height(8.dp))
+//            }
         }
     )
 }
@@ -55,32 +54,31 @@ fun PayWithScreen(
 @Composable
 private fun PayWithItem(
     onClick: () -> Unit,
-    item: PaymentTypeItem,
 ) {
-    StaxModalCell(
-        onClick = onClick,
-        text = stringResource(item.momo.label),
-        color = if (item.applied) {
-            MaterialTheme.colorScheme.primary
-        } else {
-            MaterialTheme.colorScheme.surfaceVariant
-        },
-        textColor = if (item.applied) {
-            MaterialTheme.colorScheme.onPrimary
-        } else {
-            MaterialTheme.colorScheme.onSurfaceVariant
-        },
-        leftIcon = null,
-        rightIcon = if (item.applied) {
-            @Composable {
-                Icon(
-                    imageVector = Icons.Rounded.Check,
-                    contentDescription = null,
-                    modifier = Modifier.size(28.dp)
-                )
-            }
-        } else {
-            null
-        }
-    )
+//    StaxModalCell(
+//        onClick = onClick,
+//        text = stringResource(item.momo.label),
+//        color = if (item.applied) {
+//            MaterialTheme.colorScheme.primary
+//        } else {
+//            MaterialTheme.colorScheme.surfaceVariant
+//        },
+//        textColor = if (item.applied) {
+//            MaterialTheme.colorScheme.onPrimary
+//        } else {
+//            MaterialTheme.colorScheme.onSurfaceVariant
+//        },
+//        leftIcon = null,
+//        rightIcon = if (item.applied) {
+//            @Composable {
+//                Icon(
+//                    imageVector = Icons.Rounded.Check,
+//                    contentDescription = null,
+//                    modifier = Modifier.size(28.dp)
+//                )
+//            }
+//        } else {
+//            null
+//        }
+//    )
 }
