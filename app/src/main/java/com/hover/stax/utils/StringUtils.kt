@@ -17,6 +17,9 @@ package com.hover.stax.utils
 
 import android.text.TextUtils
 import java.util.*
+import kotlin.math.abs
+import kotlin.math.pow
+import kotlin.math.round
 
 fun String.splitCamelCase(): String {
     return StringUtils.splitCamelCase(this)
@@ -52,3 +55,27 @@ private object StringUtils {
         return if (str.isEmpty()) { str } else str.substring(0, 1).uppercase(Locale.ROOT) + str.substring(1).lowercase(Locale.ROOT)
     }
 }
+
+fun Double.toString(precision: Int): String {
+    val leftShifted = (round(abs(this) * 10.0.pow(precision))).toInt()
+    val s = StringBuilder(leftShifted.toString())
+
+    // left-pad with 0's to ensure enough digits
+    (1..(precision + 1 - s.length)).forEach { _ ->
+        s.insert(0, "0")
+    }
+
+    // insert decimal point
+    if (precision != 0)
+        s.insert(s.lastIndex - (precision - 1), ".")
+
+    // (re)insert negative sign
+    if (this < 0) {
+        s.insert(0, "-")
+    }
+
+    return s.toString()
+}
+
+val Double.negativeSignOrEmpty: String
+    get() = if (this < 0.0) "-" else ""

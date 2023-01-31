@@ -186,7 +186,7 @@ fun HomeScreenPreview() {
         Surface(modifier = Modifier.fillMaxSize(), color = MaterialTheme.colors.background) {
             Scaffold(
                 topBar = {
-                    TopBar(title = R.string.nav_home, {})
+                    TopBar(title = R.string.nav_home) {}
                 },
                 content = { padding ->
                     LazyColumn(modifier = Modifier.padding(padding), content = {
