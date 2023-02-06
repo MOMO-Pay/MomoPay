@@ -153,6 +153,9 @@ dependencies {
 
     // compose
     implementation(libs.bundles.compose)
+
+    debugImplementation("androidx.customview:customview:1.2.0-alpha01")
+    debugImplementation("androidx.customview:customview-poolingcontainer:1.0.0-alpha01")
     debugImplementation(libs.compose.tooling)
     androidTestImplementation(libs.compose.ui.test)
 
