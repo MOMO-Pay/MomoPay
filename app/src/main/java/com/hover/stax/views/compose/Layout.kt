@@ -8,7 +8,7 @@ import androidx.compose.foundation.layout.imePadding
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.foundation.lazy.LazyListScope
-import androidx.compose.material3.MaterialTheme
+import androidx.compose.material.MaterialTheme
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.RectangleShape
@@ -44,7 +44,7 @@ fun StaxLazyColumn(
 ) {
     Box(
         modifier = Modifier.background(
-            color = MaterialTheme.colorScheme.background,
+            color = MaterialTheme.colors.background,
             shape = shape
         )
     ) {

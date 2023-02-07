@@ -42,7 +42,7 @@ import androidx.lifecycle.AndroidViewModel
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Transformations
+import androidx.lifecycle.switchMap
 import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
@@ -85,7 +85,7 @@ class ChannelsViewModel(
         setSimBroadcastReceiver()
         loadSims()
 
-        simCountryList = Transformations.map(sims, this::getCountriesAndFirebaseSubscriptions)
+        simCountryList = sims.switchMap { getCountriesAndFirebaseSubscriptions(it) } // TODO - ME
         countryChoice.addSource(simCountryList, this@ChannelsViewModel::onSimUpdate)
 
         countryChannels.apply {

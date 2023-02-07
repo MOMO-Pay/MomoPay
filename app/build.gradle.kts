@@ -164,9 +164,12 @@ dependencies {
     // compose
     implementation(libs.bundles.compose)
 
-    debugImplementation("androidx.customview:customview:1.2.0-alpha01")
-    debugImplementation("androidx.customview:customview-poolingcontainer:1.0.0-alpha01")
-    debugImplementation(libs.compose.tooling)
+    implementation ("androidx.compose.ui:ui-tooling:1.4.0-alpha05")
+    debugImplementation ("androidx.compose.ui:ui-tooling-preview:1.4.0-alpha05")
+
+//    debugImplementation("androidx.customview:customview:1.2.0-alpha01")
+//    debugImplementation("androidx.customview:customview-poolingcontainer:1.0.0-alpha01")
+//    debugImplementation(libs.compose.tooling)
     androidTestImplementation(libs.compose.ui.test)
 
     // logging

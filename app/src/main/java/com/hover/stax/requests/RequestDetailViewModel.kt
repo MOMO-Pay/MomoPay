@@ -17,8 +17,8 @@ package com.hover.stax.requests
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.switchMap
 import androidx.lifecycle.viewModelScope
 import com.hover.stax.contacts.ContactRepo
 import com.hover.stax.contacts.StaxContact
@@ -38,8 +38,8 @@ class RequestDetailViewModel(
     var recipients: LiveData<List<StaxContact>> = MutableLiveData()
 
     init {
-        account = Transformations.switchMap(request) { r -> r?.let { loadAccount(r) } }
-        recipients = Transformations.switchMap(request) { r -> r?.let { loadRecipients(r) } }
+        account = request.switchMap { r -> r?.let { loadAccount(r) } }
+        recipients = request.switchMap { r -> r?.let { loadRecipients(r) } }
     }
 
     private fun loadAccount(r: Request): LiveData<Account> {

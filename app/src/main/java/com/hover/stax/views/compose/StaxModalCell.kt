@@ -11,8 +11,8 @@ import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
-import androidx.compose.material3.MaterialTheme
-import androidx.compose.material3.Surface
+import androidx.compose.material.MaterialTheme
+import androidx.compose.material.Surface
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Alignment
@@ -29,8 +29,8 @@ import com.hover.stax.ui.theme.StaxTheme
 fun StaxModalCell(
     onClick: () -> Unit,
     text: String,
-    color: Color = MaterialTheme.colorScheme.surfaceVariant,
-    textColor: Color = MaterialTheme.colorScheme.onSurfaceVariant,
+    color: Color = MaterialTheme.colors.surface,
+    textColor: Color = MaterialTheme.colors.onSurface,
     enabled: Boolean = true,
     leftIcon: @Composable (() -> Unit)? = null,
     rightIcon: @Composable (() -> Unit)? = null

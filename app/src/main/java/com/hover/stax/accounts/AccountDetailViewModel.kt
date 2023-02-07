@@ -19,8 +19,8 @@ import android.app.Application
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MediatorLiveData
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.Transformations
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.switchMap
 import androidx.lifecycle.viewModelScope
 import com.hover.stax.channels.Channel
 import com.hover.stax.data.local.accounts.AccountRepo
@@ -53,11 +53,11 @@ class AccountDetailViewModel(
     private val calendar = Calendar.getInstance()
 
     init {
-        account = Transformations.switchMap(id, repo::getLiveAccount)
-        channel = Transformations.switchMap(account) { it?.let { channelRepo.getLiveChannel(it.channelId) } }
-        transactions = Transformations.switchMap(account) { it?.let { transactionRepo.getAccountTransactions(it) } }
-        spentThisMonth = Transformations.switchMap(id, this::loadSpentThisMonth)
-        feesThisYear = Transformations.switchMap(id, this::loadFeesThisYear)
+        account = id.switchMap { repo.getLiveAccount(it) }
+        channel = account.switchMap { it.let { channelRepo.getLiveChannel(it.channelId) } }
+        transactions = account.switchMap { it.let { transactionRepo.getAccountTransactions(it) } }
+        spentThisMonth = id.switchMap { loadSpentThisMonth(it) }
+        feesThisYear = id.switchMap { loadFeesThisYear(it) }
         transactionHistoryItem.addSource(transactions, this::getTransactionHistory)
     }
 

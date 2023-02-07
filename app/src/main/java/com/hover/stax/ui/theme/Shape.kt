@@ -24,10 +24,8 @@ val MediumRadius = 8.dp
 val LargeRadius = 16.dp
 val ExtraLargeRadius = 24.dp
 
-val Shapes = androidx.compose.material3.Shapes(
-    extraSmall = RoundedCornerShape(ExtraSmallRadius),
+val Shapes = androidx.compose.material.Shapes(
     small = RoundedCornerShape(SmallRadius),
     medium = RoundedCornerShape(MediumRadius),
     large = RoundedCornerShape(LargeRadius),
-    extraLarge = RoundedCornerShape(ExtraLargeRadius)
 )
