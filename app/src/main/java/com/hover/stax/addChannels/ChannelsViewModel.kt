@@ -20,6 +20,11 @@ import android.content.BroadcastReceiver
 import android.content.Context
 import android.content.Intent
 import android.content.IntentFilter
+import androidx.lifecycle.AndroidViewModel
+import androidx.lifecycle.LiveData
+import androidx.lifecycle.MediatorLiveData
+import androidx.lifecycle.MutableLiveData
+import androidx.lifecycle.viewModelScope
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.google.firebase.messaging.FirebaseMessaging
 import com.hover.sdk.api.ActionApi
@@ -37,18 +42,12 @@ import com.hover.stax.notifications.PushNotificationTopicsInterface
 import com.hover.stax.utils.AnalyticsUtil
 import com.hover.stax.utils.Utils
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.channels.Channel as KChannel
-import androidx.lifecycle.AndroidViewModel
-import androidx.lifecycle.LiveData
-import androidx.lifecycle.MediatorLiveData
-import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.switchMap
-import androidx.lifecycle.viewModelScope
 import kotlinx.coroutines.flow.MutableSharedFlow
 import kotlinx.coroutines.flow.asSharedFlow
 import kotlinx.coroutines.flow.receiveAsFlow
 import kotlinx.coroutines.launch
 import org.json.JSONObject
+import kotlinx.coroutines.channels.Channel as KChannel
 
 class ChannelsViewModel(
     application: Application,
@@ -85,7 +84,7 @@ class ChannelsViewModel(
         setSimBroadcastReceiver()
         loadSims()
 
-        simCountryList = sims.switchMap { getCountriesAndFirebaseSubscriptions(it) } // TODO - ME
+//        simCountryList = sims.switchMap { getCountriesAndFirebaseSubscriptions(it) } // TODO - ME
         countryChoice.addSource(simCountryList, this@ChannelsViewModel::onSimUpdate)
 
         countryChannels.apply {
@@ -104,7 +103,10 @@ class ChannelsViewModel(
 
         simReceiver?.let {
             LocalBroadcastManager.getInstance(getApplication())
-                .registerReceiver(it, IntentFilter(Utils.getPackage(getApplication()).plus(".NEW_SIM_INFO_ACTION")))
+                .registerReceiver(
+                    it,
+                    IntentFilter(Utils.getPackage(getApplication()).plus(".NEW_SIM_INFO_ACTION"))
+                )
         }
 
         Hover.updateSimInfo(getApplication())
@@ -177,11 +179,18 @@ class ChannelsViewModel(
         val args = JSONObject()
 
         try {
-            args.put((getApplication() as Context).getString(R.string.added_channel_id), account.channelId)
+            args.put(
+                (getApplication() as Context).getString(R.string.added_channel_id),
+                account.channelId
+            )
         } catch (ignored: Exception) {
         }
 
-        AnalyticsUtil.logAnalyticsEvent((getApplication() as Context).getString(R.string.new_channel_selected), args, getApplication() as Context)
+        AnalyticsUtil.logAnalyticsEvent(
+            (getApplication() as Context).getString(R.string.new_channel_selected),
+            args,
+            getApplication() as Context
+        )
     }
 
     fun payWith(channelId: Int) = viewModelScope.launch(Dispatchers.IO) {
@@ -240,7 +249,8 @@ class ChannelsViewModel(
     }
 
     private fun runFilter(channels: List<Channel>, value: String?) {
-        filteredChannels.value = channels.filter { standardizeString(it.toString()).contains(standardizeString(value)) }
+        filteredChannels.value =
+            channels.filter { standardizeString(it.toString()).contains(standardizeString(value)) }
     }
 
     fun updateChannel(channel: Channel) {
