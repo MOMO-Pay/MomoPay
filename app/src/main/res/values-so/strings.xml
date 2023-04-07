@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2023 Stax
+     Copyright 2023 MomoPay
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -53,14 +53,14 @@
 
     <!-- ONBOARDING VARIANT ZERO (DEFAULT)-->
     <string name="stax_tagline">Dhaqdhaqaaji lacagahaaga walwal la\'aann</string>
-    <string name="splash_screen_img_desc">Sawirka Stax</string>
+    <string name="splash_screen_img_desc">Sawirka MomoPay</string>
     <string name="slide_1_title">Ammaano. Dagdagsiimo. Huffanaan</string>
     <string name="slide_1_desc">Ku dirso lacagahaaga oo ku iibso waqtiga hawada oo dhamaan koontooyinkaaga hal meel</string>
     <string name="onboarding_link_accounts">Ku xidh koontada hadda</string>
 
 
     <!-- ONBOARDING VARIANT_1 -->
-    <string name="onboarding_v1_slide1_title">Stax wuxuu u shaqeeyaa qaab offline ah</string>
+    <string name="onboarding_v1_slide1_title">MomoPay wuxuu u shaqeeyaa qaab offline ah</string>
     <string name="onboarding_v1_slide2_title">Dir lacag</string>
     <string name="onboarding_v1_slide3_title">Dalbo lacag</string>
     <string name="onboarding_v1_slide4_title">Iibso waqtiga hawada</string>
@@ -70,43 +70,43 @@
     <string name="slide2_desc">Lacagahaaga kuxawil ammaano iyo dagdagsiimo. Khidmad la\'aan.</string>
     <string name="slide3_desc">Ka hel lacagaha asxaaptaada iyo macaamiishaada si fudud adoo isticmaalaya link.</string>
     <string name="slide4_desc">U iibi waqtiga hawada naftaada iyo asxaabtaada.</string>
-    <string name="slide1_desc">Ku isticmaal Stax khad iyo khad la\'aanba, Goor walba. Goor kasta.</string>
+    <string name="slide1_desc">Ku isticmaal MomoPay khad iyo khad la\'aanba, Goor walba. Goor kasta.</string>
 
-    <string name="use_stax_no_sigin">Isticmaal Stax diwaan galin la\'aan</string>
-    <string name="termsOfServiceFullLabel">Markaad sii wadato, waxaad ogashahay dhamaan shuruucda adeegga Stax.</string>
+    <string name="use_stax_no_sigin">Isticmaal MomoPay diwaan galin la\'aan</string>
+    <string name="termsOfServiceFullLabel">Markaad sii wadato, waxaad ogashahay dhamaan shuruucda adeegga MomoPay.</string>
     <string name="privacyPolicyFullLabel">Ka eeg shuruucda adeegga sida aan u isticmaalno xogtaada.</string>
 
     <!-- ONBOARDING VARIANT_2 -->
-    <string name="welcome_to_stax">Salaan, kusoo dhawow Stax.</string>
-    <string name="welcome_to_stax_fullContent">Haddaad Stax kucusbtahay Stax laga yaaba inaad su\'aal qabto, Noo oggolow inaan kugu caawinno cadeynta qaar. Xulo ikhtiyaarka kugu haboon adiga.</string>
-    <string name="onboarding_variant_2_question1">Stax ma anaa laygu talagalay?</string>
-    <string name="skip_prefix">Horey u ogtahay wax ku saabsan Stax?</string>
+    <string name="welcome_to_stax">Salaan, kusoo dhawow MomoPay.</string>
+    <string name="welcome_to_stax_fullContent">Haddaad MomoPay kucusbtahay MomoPay laga yaaba inaad su\'aal qabto, Noo oggolow inaan kugu caawinno cadeynta qaar. Xulo ikhtiyaarka kugu haboon adiga.</string>
+    <string name="onboarding_variant_2_question1">MomoPay ma anaa laygu talagalay?</string>
+    <string name="skip_prefix">Horey u ogtahay wax ku saabsan MomoPay?</string>
     <string name="skip">Iska dhaaf</string>
 
-    <string name="welcome_title_one">Kusoo dhawoow Stax!</string>
-    <string name="welcome_sub_one">Kusoo dhawow bulshada Stax. Hadda laga bilaabo waxaad tahay Staxxer. Halkan waxaa loogu talagalay dhowr waxyaabood oo aad ku farxi karto Stax.</string>
+    <string name="welcome_title_one">Kusoo dhawoow MomoPay!</string>
+    <string name="welcome_sub_one">Kusoo dhawow bulshada MomoPay. Hadda laga bilaabo waxaad tahay MomoPayer. Halkan waxaa loogu talagalay dhowr waxyaabood oo aad ku farxi karto MomoPay.</string>
     <string name="welcome_title_two">Woohoo! Waxaad si sax ah u tahay cidda aan raadineynay!</string>
 
     <string name="welcome_title_three">Garabkaagaan taagannahay!</string>
-    <string name="welcome_sub_two">Waa kuwan dhowr waxyaabood oo aad ku farxi karto Stax.</string>
+    <string name="welcome_sub_two">Waa kuwan dhowr waxyaabood oo aad ku farxi karto MomoPay.</string>
     <string name="intro_feature_one_title">Fududaynta USSD-ga</string>
     <string name="intro_feature_one_desc">Looma baahna inaad xasuusatto boqolaal USSD kode oo isku daris. Annagaa hawusha kuu qabanayna.</string>
     <string name="intro_feature_two_title">Si buuxda u xakamee lacagtaada</string>
-    <string name="intro_feature_two_desc">Maaree oo ka bixi dhammaan bangiyadaada iyo xisaabaadka lacagta mobilada adoo isticmaalaya Stax.</string>
+    <string name="intro_feature_two_desc">Maaree oo ka bixi dhammaan bangiyadaada iyo xisaabaadka lacagta mobilada adoo isticmaalaya MomoPay.</string>
     <string name="intro_feature_three_title">Fudaydin horaan leh</string>
     <string name="intro_feature_three_desc">Waxaan ka faa\'iidaysanay Android oo lagu dhisay nakhshad aamin ah si aan xogtaada u ilaalino mar walba.</string>
-    <string name="explore_btn_text">Booqo Stax</string>
+    <string name="explore_btn_text">Booqo MomoPay</string>
 
-    <string name="does_stax_charge_fees">Stax wax khidmad ah may goosattaa?</string>
-    <string name="what_does_stax_do">Maxay Stax qabataa?</string>
+    <string name="does_stax_charge_fees">MomoPay wax khidmad ah may goosattaa?</string>
+    <string name="what_does_stax_do">Maxay MomoPay qabataa?</string>
 
-    <string name="is_stax_for_you">Si loo garto haddii Stax laguugu talagalay kadooro kuwan hoose adi ku qeexayya</string>
+    <string name="is_stax_for_you">Si loo garto haddii MomoPay laguugu talagalay kadooro kuwan hoose adi ku qeexayya</string>
     <string name="variant_V2_checkbox_option1">Waxaan adeegsaday USSD wakhti hore?</string>
     <string name="variant_V2_checkbox_option2">Waxaan haystaa wax ka badan hal bangi ama koonto lacageed?</string>
     <string name="variant_V2_checkbox_option3">Waxaan damiyaa xogteyda mobilada marwalba?ilkaaga?</string>
     <string name="none_apply">Kuwan midkoodna ima khuseyso</string>
-    <string name="variant_v2_nocheckbox_desc1">Stax kuma dalaco khidmad dheeraad ah. Mararka qaarkood bangigaaga ama bixiyaha lacagta moobilka ayaa kugu dalaci khidmadaha wax kala iibsiga.\n\nStax waxa ay la socotaa inta lacag ay kugu soo dalacayaan</string>
-    <string name="variant_v2_nocheckbox_desc2">Stax waxay isticmaashaa tignoolajiyada USSD si ay kuugu suurtagasho inaad wax kala soocdo offline. Stax, waxaad ka hubin kartaa hadhaaga koontadaada, diri kartaa lacag, iibsan kartaa wakhtiga hawada, lacag ku xawili karta akoonnada gaarka ah, waxaad ka maamuli kartaa xisaabo maaliyadeed oo badan (bangi iyo lacagta mobaylada) hal app.\n\nWaxa kale oo aad samayn kartaa xidhiidho ay dadka kale ee Stax wataa awoodaan u isticmaal in aan lacag kuu soo diro.</string>
+    <string name="variant_v2_nocheckbox_desc1">MomoPay kuma dalaco khidmad dheeraad ah. Mararka qaarkood bangigaaga ama bixiyaha lacagta moobilka ayaa kugu dalaci khidmadaha wax kala iibsiga.\n\nMomoPay waxa ay la socotaa inta lacag ay kugu soo dalacayaan</string>
+    <string name="variant_v2_nocheckbox_desc2">MomoPay waxay isticmaashaa tignoolajiyada USSD si ay kuugu suurtagasho inaad wax kala soocdo offline. MomoPay, waxaad ka hubin kartaa hadhaaga koontadaada, diri kartaa lacag, iibsan kartaa wakhtiga hawada, lacag ku xawili karta akoonnada gaarka ah, waxaad ka maamuli kartaa xisaabo maaliyadeed oo badan (bangi iyo lacagta mobaylada) hal app.\n\nWaxa kale oo aad samayn kartaa xidhiidho ay dadka kale ee MomoPay wataa awoodaan u isticmaal in aan lacag kuu soo diro.</string>
 
     <string name="skip_tutorial">Kabood tababbarka</string>
 
@@ -137,9 +137,9 @@
     <string name="refresh_balance_error">Koonto gasho si\'aad u xaqiijiso hadhaagaaga</string>
 
     <string name="check_balance_title">Fiiri hadhaaga</string>
-    <string name="check_balance_desc">Sax! koontada ugu horaysa waad gashatay. Hadda hadhaagaaga waad fiirin kartaa adoo isticmaalayya Stax.</string>
-    <string name="check_balance_alt">Sax! Koontada si sax ah ayaa loogu xidhay. Hadda hadhaagaaga waad fiirin kartaa adoo isticmaalayya Stax.</string>
-    <string name="check_balance_alt_plural">Sax! Koontada si sax ah ayaa loogu xidhay. Hadda hadhaagaaga waad fiirin kartaa adoo isticmaalayya Stax.</string>
+    <string name="check_balance_desc">Sax! koontada ugu horaysa waad gashatay. Hadda hadhaagaaga waad fiirin kartaa adoo isticmaalayya MomoPay.</string>
+    <string name="check_balance_alt">Sax! Koontada si sax ah ayaa loogu xidhay. Hadda hadhaagaaga waad fiirin kartaa adoo isticmaalayya MomoPay.</string>
+    <string name="check_balance_alt_plural">Sax! Koontada si sax ah ayaa loogu xidhay. Hadda hadhaagaaga waad fiirin kartaa adoo isticmaalayya MomoPay.</string>
 
     <string name="later">Dhawaan</string>
     <string name="no_connecion">Khad majiro</string>
@@ -149,10 +149,10 @@
     <!-- ADD ACCOUNT -->
     <string name="your_accounts">koontooyinkaaga</string>
     <string name="add_an_account">Kudar koonto kale</string>
-    <string name="add_accounts_to_stax">Ku xidhiidh Stax koontooyinkaaga</string>
+    <string name="add_accounts_to_stax">Ku xidhiidh MomoPay koontooyinkaaga</string>
 
     <string name="search">Raadi</string>
-    <string name="no_accounts_found_desc"><![CDATA[ waxay u eegtahay "<b><font color="#39CBFC"> %1$s </font> </b>" inuunan ku jirin Stax wali ama macluumaad qaldan aad galisay.<br/>Isku day inaad wax kale raadiso]]></string>
+    <string name="no_accounts_found_desc"><![CDATA[ waxay u eegtahay "<b><font color="#39CBFC"> %1$s </font> </b>" inuunan ku jirin MomoPay wali ama macluumaad qaldan aad galisay.<br/>Isku day inaad wax kale raadiso]]></string>
     <string name="cant_find_institution">Koontadaada lama helin?</string>
     <string name="inform_us_here">Na ogaysii</string>
 
@@ -181,22 +181,22 @@
     <!-- Permissions -->
     <string name="permissions_title">Fassaxa waa loo baahan yahay.</string>
     <string name="permissions_basic_title">Noo ogolow fasaxa taleefanka iyo fariimaha.</string>
-    <string name="perms_basic_desc">Si aad u hesho dhamaan koontooyinka iyo dabagalka dhaqdhaqaaqa koontooyinkaas, U ogolow Stax fasaxa taleefanka iyo farimmaha.</string>
-    <string name="permissions_overlay_desc">Fasaxyadan waxay Stax u ogalaanayaan garaaciodda USSD-ga iyo inuu maamulo iswaydaarsiga si uu kuu tuso wax qabadka xawilaadda.</string>
-    <string name="permissions_accessibility_desc">Si uu kuugu fudaydiyo xaqiijinta hadhaaga, xawilaadda lacagta iyo iibsashada waqtiga hawada, Stax wuxuu u baahanayahay ogalaanshaha display and accessibility permission</string>
+    <string name="perms_basic_desc">Si aad u hesho dhamaan koontooyinka iyo dabagalka dhaqdhaqaaqa koontooyinkaas, U ogolow MomoPay fasaxa taleefanka iyo farimmaha.</string>
+    <string name="permissions_overlay_desc">Fasaxyadan waxay MomoPay u ogalaanayaan garaaciodda USSD-ga iyo inuu maamulo iswaydaarsiga si uu kuu tuso wax qabadka xawilaadda.</string>
+    <string name="permissions_accessibility_desc">Si uu kuugu fudaydiyo xaqiijinta hadhaaga, xawilaadda lacagta iyo iibsashada waqtiga hawada, MomoPay wuxuu u baahanayahay ogalaanshaha display and accessibility permission</string>
 
 
     <string name="permission_support_desc">Waxaan u baahannahay ogalaanshaha phone permissions si loo abuuro ID-ga caawimaadka</string>
     <string name="nav_sim_permission">ogalaanshaha SIM-ka</string>
     <string name="perm_dialoghead">Hal shay oo ugu dambeeya…</string>
-    <string name="perm_dialogbody">Stax wuxuu u baahanayahay 2 ogalaansho oo ah %1$s.</string>
+    <string name="perm_dialogbody">MomoPay wuxuu u baahanayahay 2 ogalaansho oo ah %1$s.</string>
     <string name="use_ussd">Isticmaal USSD</string>
     <string name="buy_airtime">Iibso waqtiga hawada</string>
     <string name="check_balance">Xaqiiji hadhaaga</string>
     <string name="send_money">Dir lacag</string>
     <string name="send_money_to">U dir lacag</string>
     <string name="move_money">Lacag xawil</string>
-    <string name="perm_accessibiltiy_dialogbody">Stax wuxuu u baahan yahay ogalaanshaha accessibility permission si uu %1$s</string>
+    <string name="perm_accessibiltiy_dialogbody">MomoPay wuxuu u baahan yahay ogalaanshaha accessibility permission si uu %1$s</string>
     <string name="perm_progress1">Talaabada 1aad ee 2da: Display permission</string>
     <string name="perm_progress2">Talaabada 2aad of 2da: Accessibility permission</string>
     <string name="perm_cta1">Itus hagaajinta</string>
@@ -317,11 +317,11 @@
     <string name="amount_label_opt">Cadadka (ikhtiyaar)</string>
     <string name="reqfrom_label">Ku</string>
     <string name="btn_addcontact">+ Qof kale ku dar</string>
-    <string name="sms_request_template">Si naxariis leh ii stax garee %1$s marka ugu horeysa ee kugu habboon. %2$s %3$s</string>
+    <string name="sms_request_template">Si naxariis leh ii MomoPay garee %1$s marka ugu horeysa ee kugu habboon. %2$s %3$s</string>
     <string name="sms_amount_detail">%1$s </string>
     <string name="sms_note_detail">Xasuus: \"%1$s\" </string>
     <string name="reqsave_head">Xafid codsiga?</string>
-    <string name="toast_error_smsperm">Waa inaad bixisa ogolaanshaha SMS-ka la akhriyay si uu Stax kuugu sheego marka codsiga la diro ama la fuliyo.</string>
+    <string name="toast_error_smsperm">Waa inaad bixisa ogolaanshaha SMS-ka la akhriyay si uu MomoPay kuugu sheego marka codsiga la diro ama la fuliyo.</string>
     <string name="reqsave_msg">Waxay u egtahay inaadan dirin codsigaaga Si kastaba ma jeclaan lahayd laxafido codsigan?</string>
     <string name="toast_confirm_request">Codsigaaga waa la xafidsay.</string>
     <string name="toast_request_scheduled">Codsigaaga waa la qorsheeyay Waxaa lagu xasuusin doonaa inaad fariin u dirto %1$s</string>
@@ -367,11 +367,11 @@
     <!-- Notifications -->
     <string name="notify_default_title">Isticmaalaha waa la qorsheeyay</string>
     <string name="notify_default_channel_descrip">Tus ogaysiisyada si aad u samayso wareejinta iyo codsiyada aad qorshaysay.</string>
-    <string name="notify_transfer">Waa xiligii lacagta la xawili lahaa %1$s ayadoo laysticmaalayo Stax.</string>
+    <string name="notify_transfer">Waa xiligii lacagta la xawili lahaa %1$s ayadoo laysticmaalayo MomoPay.</string>
     <string name="notify_transfer_cta">Xawill hadda</string>
-    <string name="notify_request">Waa waqtigii loo diri lahaa codsi lacageed %1$s ayadoo laysticmaalayo Stax.</string>
+    <string name="notify_request">Waa waqtigii loo diri lahaa codsi lacageed %1$s ayadoo laysticmaalayo MomoPay.</string>
     <string name="notify_request_cta">Dir codsiga</string>
-    <string name="notify_airtime">Waa waqtigii aad ku iibsan lahayd waqtiga hawada Stax.</string>
+    <string name="notify_airtime">Waa waqtigii aad ku iibsan lahayd waqtiga hawada MomoPay.</string>
     <string name="notify_airtime_cta">Iibso waqtiga hawada.</string>
 
     <!-- Details -->
@@ -384,7 +384,7 @@
     <string name="transactions_cardhead">Kala iibsiga</string>
     <string name="network_label">Koontada qaataha</string>
     <string name="id_label">ID-ga kala iibsiga.</string>
-    <string name="stax_id_label">ID-ga STax</string>
+    <string name="stax_id_label">ID-ga MomoPay</string>
     <string name="session_cardhead">fariimaha.</string>
     <string name="view_full_details">Daalaco dhamaan macluumaadka</string>
     <string name="new_balance">Hadhaaga %1$s cusub %2$s</string>
@@ -402,12 +402,12 @@
     <!-- Settings -->
     <string name="meta_cardhead">Doorashada</string>
     <string name="share_text">Wadaag</string>
-    <string name="share_stax">Wadaag Stax</string>
+    <string name="share_stax">Wadaag MomoPay</string>
     <string name="first_login_dialoghead">Horta, fadlan gal</string>
     <string name="add_referee_info">Eeg macluumaadka gudbinta</string>
     <string name="saved_referral">Gudbinta xafidan</string>
     <string name="copied">La koobiyey</string>
-    <string name="share_sub">Stax app</string>
+    <string name="share_sub">MomoPay app</string>
     <string name="share_explain">Wadaag appka iyada oo loo-maro</string>
     <string name="share_msg">Fiiri barnaamijkan https://play.google.com/store/apps/details?id=com.hover.stax</string>
     <string name="connect_accounts">Ku xir koontadaada</string>
@@ -415,14 +415,14 @@
     <string name="login_google_err">Cillad ayaa qabsattay markii laysku dayay in lagu galo koontada Google. Fadlan markale tijaabi.</string>
     <string name="referral_text">Koodhkaaga:</string>
     <string name="referral_label">Koodhka agentiga</string>
-    <string name="privacy_policy_label">Markaad isticmaalayso Stax App, waxaad akhriday siyaasaddayada sirnimada oo aad ogolaatay shuruudaha adeegga. Guji si aad u aqriso</string>
+    <string name="privacy_policy_label">Markaad isticmaalayso MomoPay App, waxaad akhriday siyaasaddayada sirnimada oo aad ogolaatay shuruudaha adeegga. Guji si aad u aqriso</string>
     <string name="dialog_confirm_logout_header">Xaqiiji Kabixitaanka</string>
     <string name="logout_out_success">Kabixitaanka waa lagu guulaystay</string>
     <string name="dialog_confirm_logout_desc">"Miyaad hubtaa inaad kabaxdo?"</string>
 
     <string name="name_label">Magacaaga buuxa gali</string>
     <string name="phone_label">Taleefan lambarkaaga gali</string>
-    <string name="referral_help">Geli koodka gudbinta ee wakiilka Stax ee ku diwaangaliyay.</string>
+    <string name="referral_help">Geli koodka gudbinta ee wakiilka MomoPay ee ku diwaangaliyay.</string>
     <string name="referral_error_blank">Fadlan geli koodka gudbinta.</string>
     <string name="referral_error_invalid">Fadlan geli kood tixraac sax ah.</string>
     <string name="referral_error_name">Fadlan geli magac sax ah</string>
@@ -433,13 +433,13 @@
     <string name="referral_error_try_again">Fadlan isku day mar kale dhowr ilbiriqsi ka dib</string>
 
     <string name="security_cardhead">Amniga</string>
-    <string name="security_cardbody">Stax waxa uu buuxiyey shuruudaha 740.17(b)(3) (i) kala soocida amniga ee Xafiiska Warshadaha iyo Amniga ee Maraykanka. Software-kani waxa uu HTTPS u isticmaalayaa xidhiidhka serverka; Symmetric key RSA sir si ku meel gaar ah loogu kaydiyo aqoonsiga isticmaalaha qalabkooda iyaga oo isticmaalaya Android Keyystore; iyo koodka qarinta iyadoo la isticmaalayo DRM.</string>
+    <string name="security_cardbody">MomoPay waxa uu buuxiyey shuruudaha 740.17(b)(3) (i) kala soocida amniga ee Xafiiska Warshadaha iyo Amniga ee Maraykanka. Software-kani waxa uu HTTPS u isticmaalayaa xidhiidhka serverka; Symmetric key RSA sir si ku meel gaar ah loogu kaydiyo aqoonsiga isticmaalaha qalabkooda iyaga oo isticmaalaya Android Keyystore; iyo koodka qarinta iyadoo la isticmaalayo DRM.</string>
     <string name="defaultacct_label">Koontada asalka ah</string>
     <string name="manage_account">Maamul Koontada</string>
-    <string name="security_head">Ku xafid Stax</string>
+    <string name="security_head">Ku xafid MomoPay</string>
     <string name="removeaccount_dialoghead">Ka saar %1$s Hadda</string>
     <string name="btn_removeaccount">Ka saar akoontiga</string>
-    <string name="removeaccount_msg">Waxaad akoonkaaga ku dari kartaa Stax markasta aad doontid.</string>
+    <string name="removeaccount_msg">Waxaad akoonkaaga ku dari kartaa MomoPay markasta aad doontid.</string>
     <string name="toast_confirm_removepin">Lambar sireedka waala masaxay</string>
     <string name="btn_savepin">Xafid lambarsireedka</string>
     <string name="btn_editpin">Hagaaji lambarsireedka</string>
@@ -452,20 +452,20 @@
 </string>
 
     <string name="learn_stax_cardhead">Baro</string>
-    <string name="stax_features">Tilmaamo iyo in ka badan oo ku saabsan Stax</string>
+    <string name="stax_features">Tilmaamo iyo in ka badan oo ku saabsan MomoPay</string>
     <string name="stax_medium_url">http://joinstax.medium.com/</string>
 
     <string name="contact_stax_cardhead">Nala soo xidhiidh</string>
     <string name="twitter" translatable="false">Twitter</string>
     <string name="stax_twitter_url" translatable="false">http://twitter.com/joinstax</string>
-    <string name="receive_stax_updates">Hel wararka Stax</string>
+    <string name="receive_stax_updates">Hel wararka MomoPay</string>
 
     <string name="FAQs">FAQs</string>
-    <string name="request_feature">Codso sifada Stax</string>
+    <string name="request_feature">Codso sifada MomoPay</string>
     <string name="email_support">Caawimaadka iimaylka</string>
     <string name="stax_support_email">help@stax.me</string>
     <string name="stax_support_email_mailTo">https://help@stax.me</string>
-    <string name="stax_emailing_subject">Stax support id - %1$s</string>
+    <string name="stax_emailing_subject">MomoPay support id - %1$s</string>
     <string name="send_email_using">Dir iimayl adoo isticmaalaya…</string>
 
     <string name="account_cardhead">Koonto</string>
@@ -473,16 +473,16 @@
     <string name="logged_in_as">Waxaad ku gashay sidii %1$s</string>
 
     <!-- System auth check -->
-    <string name="auth_title">Ku xaqiiji Stax</string>
+    <string name="auth_title">Ku xaqiiji MomoPay</string>
     <string name="auth_descrip">Ku cadee farahaaga</string>
     <string name="toast_error_auth">Xaqiijinta waa fashilantay</string>
 
     <!-- Self destruct -->
-    <string name="destruct_cardbody">Dhismahan Stax wuu dhacay \n\n Soo deji dhismihii ugu dambeeyay si aad u sii wadato isticmaalka Stax.</string>
+    <string name="destruct_cardbody">Dhismahan MomoPay wuu dhacay \n\n Soo deji dhismihii ugu dambeeyay si aad u sii wadato isticmaalka MomoPay.</string>
     <string name="btn_download">Soo deji nooc cusub</string>
     <string name="uninstall_cardbody">Cusboonaysiintaadu waa soo dejinaysaa \n\n Guji badhanka hoose si aad u uninstall u saarto noocaan. Marka soo dejintaadu dhammaato taabo ogeysiinta si aad u rakibto nooca cusub.</string>
     <string name="btn_uninstall">Ka saar</string>
-    <string name="notify_download_head">Cusboonaysiinta Stax</string>
+    <string name="notify_download_head">Cusboonaysiinta MomoPay</string>
     <string name="notify_download_body">Soo dejinta</string>
 
     <!-- Time -->
@@ -510,11 +510,11 @@
     <!-- BOUNTY -->
     <string name="nav_bounty">Fadliga</string>
     <string name="bounty_title">&#128184;  HEL LACAG! Khariidaynta USSD</string>
-    <string name="bounty_msg">Stax waxay ku siin doontaa USD $5 - $50 si aad ugu dhex marto socodka USSD.</string>
+    <string name="bounty_msg">MomoPay waxay ku siin doontaa USD $5 - $50 si aad ugu dhex marto socodka USSD.</string>
     <string name="get_started">Billow</string>
     <string name="bounty_email_stage_title">&#128506;  Khariidaynta isku socodka USSD</string>
-    <string name="bounty_email_stage_desc1"><b>Ku Soo Dhawoow Khariidaynta Lacagta.</b> Stax waxa uu rabaa in uu USSD u fududeeyo qof walba. Si loogu geeyo Stax dad badan oo ku nool wadamo badan, Waxaan u baahanahay in aan khariidayno USSD kasta oo caalami ah. Ku biir Stax sida Khariidadaha Lacagta oo ka hel $5 - $20 USD wax kala beddelasho kasta oo USSD ah oo aad si guul leh u khariidayso. Liiska USSD-ga ee aan wali u baahanahay (faa\'iidooyin) ayaa ku taxan bogga xiga. Waxaan ku darnaa faa\'iidooyin cusub marar badan!</string>
-    <string name="bounty_email_stage_desc2"><b>1.</b>Ku soo gal akoonkaaga Google.\n<b>2.</b> ka hel abaalmarin furan mid ka mid ah akoonnada lacagta bangigaaga ama mobilkaaga.\n<b>3.</b> Buuxi <a href="https://usehover.notion.site/Requirements-for-successful-bounties-469e965fb21b4467b47a6eb5df82952c">USSD-ga kala iibsiga</a> lagu tilmaamay fa\'iidada, sida xaqiijita hadhaaga ama iibsiga waqtiga hawada.\n <b>4.</b> Xaqiiji kala iibsiga USSD-ga. Isku day haddi ay fashilantay ama ay dhamaystiri waydo\n<b>5.</b> Stax ayaa dib u eegi doona soo gudbintaada, taasoo qaadan karta 7–10 maalmood. \n<b>6.</b> Waxa mushahar lagu siinayaa dhamaadka usbuuca walba.</string>
+    <string name="bounty_email_stage_desc1"><b>Ku Soo Dhawoow Khariidaynta Lacagta.</b> MomoPay waxa uu rabaa in uu USSD u fududeeyo qof walba. Si loogu geeyo MomoPay dad badan oo ku nool wadamo badan, Waxaan u baahanahay in aan khariidayno USSD kasta oo caalami ah. Ku biir MomoPay sida Khariidadaha Lacagta oo ka hel $5 - $20 USD wax kala beddelasho kasta oo USSD ah oo aad si guul leh u khariidayso. Liiska USSD-ga ee aan wali u baahanahay (faa\'iidooyin) ayaa ku taxan bogga xiga. Waxaan ku darnaa faa\'iidooyin cusub marar badan!</string>
+    <string name="bounty_email_stage_desc2"><b>1.</b>Ku soo gal akoonkaaga Google.\n<b>2.</b> ka hel abaalmarin furan mid ka mid ah akoonnada lacagta bangigaaga ama mobilkaaga.\n<b>3.</b> Buuxi <a href="https://usehover.notion.site/Requirements-for-successful-bounties-469e965fb21b4467b47a6eb5df82952c">USSD-ga kala iibsiga</a> lagu tilmaamay fa\'iidada, sida xaqiijita hadhaaga ama iibsiga waqtiga hawada.\n <b>4.</b> Xaqiiji kala iibsiga USSD-ga. Isku day haddi ay fashilantay ama ay dhamaystiri waydo\n<b>5.</b> MomoPay ayaa dib u eegi doona soo gudbintaada, taasoo qaadan karta 7–10 maalmood. \n<b>6.</b> Waxa mushahar lagu siinayaa dhamaadka usbuuca walba.</string>
     <string name="descrip_bounty_airtime">U iibi waqtiga hawada qof kasta %1$s</string>
     <string name="bounty_airtime_explain">U iibi waqtiga hawada qof kale %1$s</string>
     <string name="descrip_bounty_p2p">Lacag u dir qof kale %1$s</string>
@@ -577,20 +577,20 @@
     <string name="try_again">Tijaabi markale</string>
     <string name="unknown_login_error">Khalad aan la garanayn, fadlan isku day mar kale. Haddii ciladdu sii socoto, fadlan xidh abka oo dib u bilow.</string>
 
-    <string name="no_account_selected_error">Fadlan dooro ugu yaraan hal koonto oo aad Stax ku darto</string>
+    <string name="no_account_selected_error">Fadlan dooro ugu yaraan hal koonto oo aad MomoPay ku darto</string>
 
     <!-- IN-APP BANNERS -->
     <string name="banner_permission_title">SIM, SMS, Accessibility &amp; Overlay</string>
-    <string name="banner_permission_desc">Muxuu Stax u weydiistaa ogolaanshahan?</string>
+    <string name="banner_permission_desc">Muxuu MomoPay u weydiistaa ogolaanshahan?</string>
     <string name="banner_permission_cta"><u>Halkan ku dhufo si aad u ogaato</u></string>
-    <string name="banner_roundupnews_title">La soco wararka ugu danbeeyay ee Stax ee billaha ah.</string>
+    <string name="banner_roundupnews_title">La soco wararka ugu danbeeyay ee MomoPay ee billaha ah.</string>
     <string name="banner_roundupnews_cta"><u>Taabo si aad hadda u akhrido</u></string>
-    <string name="banner_gist_title">Ma rabtaa qoraallo gaar ah oo Stax?</string>
+    <string name="banner_gist_title">Ma rabtaa qoraallo gaar ah oo MomoPay?</string>
     <string name="banner_gist_cta"><u>Imika iska diiwaan geli liiska iimaylka</u></string>
     <string name="banner_upvote_title">Nala dhis! Kudar/Codee codso ama cillad ka warbixi.</string>
     <string name="banner_upvote_cta"><u>Hadda fikir ka dhiibo</u></string>
-    <string name="stax_banner_img_desc">Boodhka calaamadda Stax</string>
-    <string name="banner_research_title">Ma doonaysaa in aad lacag hesho si aad Stax uga dhigto mid ka sii fiican?</string>
+    <string name="stax_banner_img_desc">Boodhka calaamadda MomoPay</string>
+    <string name="banner_research_title">Ma doonaysaa in aad lacag hesho si aad MomoPay uga dhigto mid ka sii fiican?</string>
     <string name="banner_research_cta">Isku dar daraasadka cilmi baarista maanta</string>
 
     <string name="banner_permission_url">https://joinstax.medium.com/phone-permissions-on-stax-a0ec82533570</string>
@@ -605,14 +605,14 @@
     <string name="test_mode_enabled">Habka tijaabada ayaa ku hawlan</string>
 
     <string name="faq_title">Suaalaha badanka lawaydiiyo</string>
-    <string name="faq_content"><![CDATA[ %1$s <p/>Still have questions? <p/> <a href="mailto:help@stax.me?subject=Stax-support-%2$s"><u> <b><font color=#1878F9> Email stax support </b><u></a>]]></string>
+    <string name="faq_content"><![CDATA[ %1$s <p/>Still have questions? <p/> <a href="mailto:help@stax.me?subject=MomoPay-support-%2$s"><u> <b><font color=#1878F9> Email MomoPay support </b><u></a>]]></string>
     <string name="loading">Soodejinaya…</string>
     <string name="loading_error">Lama soo saari karo FAQ, fadlan isku day mar kale</string>
     <string name="faq_internet_error">Habkani waxa u baahan yahay khadka internedka, fadlan isku day mar kale</string>
 
     <string name="working_offline">Qaab khadla\'aan</string>
 
-    <string name="marketing_email_optin">Stax waxay ii soo diri kartaa iimaylo mustaqbalka.</string>
+    <string name="marketing_email_optin">MomoPay waxay ii soo diri kartaa iimaylo mustaqbalka.</string>
     <string name="email_client_not_found">Iimayl macmiil lagama helin aaladda</string>
     <string name="enable_call_permission">Fadlan awood u geli ogolaanshaha wacitaanka si aad u garaacdo koodka USSD.</string>
 

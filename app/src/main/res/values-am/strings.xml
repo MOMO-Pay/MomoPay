@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2023 Stax
+     Copyright 2023 MomoPay
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -137,7 +137,7 @@
 
     <string name="add_an_account">መለያ ያክሉ</string>
 
-    <string name="add_accounts_to_stax">ወደ Stax መለያዎችን ያክሉ</string>
+    <string name="add_accounts_to_stax">ወደ MomoPay መለያዎችን ያክሉ</string>
 
     <!-- Permissions -->
 
@@ -151,7 +151,7 @@
 
     <string name="perm_dialoghead">አንድ የመጨረሻ ነገር…</string>
 
-    <string name="perm_dialogbody">Stax ለ %1$s 2 ፈቃዶች ይፈልጋል።</string>
+    <string name="perm_dialogbody">MomoPay ለ %1$s 2 ፈቃዶች ይፈልጋል።</string>
 
     <string name="use_ussd">USSD ን ይጠቀሙ</string>
 
@@ -165,7 +165,7 @@
 
     <string name="move_money">ገንዘብ ማንቀሳቀስ</string>
 
-    <string name="perm_accessibiltiy_dialogbody">Stax ለ %1$s የተደራሽነት ፈቃድ ይፈልጋል</string>
+    <string name="perm_accessibiltiy_dialogbody">MomoPay ለ %1$s የተደራሽነት ፈቃድ ይፈልጋል</string>
 
     <string name="perm_progress1">የ 2 ደረጃ 1 ፦ የማሳያ ፈቃድ</string>
 
@@ -417,11 +417,11 @@
 
     <string name="notify_default_channel_descrip">በእርስዎ የታቀዱ ዝውውሮችን እና ጥያቄዎችን ለማድረግ ማሳወቂያዎችን ያሳዩ።</string>
 
-    <string name="notify_transfer">በ Stax ገንዘብ %1$s ለማስተላለፍ ጊዜው አሁን ነው።</string>
+    <string name="notify_transfer">በ MomoPay ገንዘብ %1$s ለማስተላለፍ ጊዜው አሁን ነው።</string>
 
     <string name="notify_transfer_cta">አሁን ያስተላልፉ</string>
 
-    <string name="notify_request">በ Stax የገንዘብ ጥያቄን ወደ %1$s ለመላክ ጊዜው አሁን ነው።</string>
+    <string name="notify_request">በ MomoPay የገንዘብ ጥያቄን ወደ %1$s ለመላክ ጊዜው አሁን ነው።</string>
 
     <string name="notify_request_cta">ጥያቄ ይላኩ</string>
 
@@ -485,7 +485,7 @@
 
     <string name="btn_removeaccount">መለያ አስወግድ</string>
 
-    <string name="removepins_dialogmes">በማንኛውም ጊዜ መለያዎን ወደ Stax ማከል ይችላሉ።</string>
+    <string name="removepins_dialogmes">በማንኛውም ጊዜ መለያዎን ወደ MomoPay ማከል ይችላሉ።</string>
 
     <string name="toast_confirm_removepin">ፒን በተሳካ ሁኔታ ተወግዷል</string>
 
@@ -507,7 +507,7 @@
 
     <string name="twitter" translatable="false">Twitter</string>
 
-    <string name="receive_stax_updates">የ Stax ዝመናዎችን ይቀበሉ</string>
+    <string name="receive_stax_updates">የ MomoPay ዝመናዎችን ይቀበሉ</string>
 
     <string name="FAQs">ተደጋጋሚ ጥያቄዎች</string>
 
@@ -515,7 +515,7 @@
 
     <!-- System auth check -->
 
-    <string name="auth_title">በ Stax ያረጋግጡ</string>
+    <string name="auth_title">በ MomoPay ያረጋግጡ</string>
 
     <string name="auth_descrip">በጣት አሻራዎ ያረጋግጡ</string>
 
@@ -523,7 +523,7 @@
 
     <!-- Self destruct -->
 
-    <string name="destruct_cardbody">ይህ የስታክስ ግንባታ ጊዜው አልፎበታል። \n\nStax ን መጠቀሙን ለመቀጠል የቅርብ ጊዜውን ግንባታ ያውርዱ።</string>
+    <string name="destruct_cardbody">ይህ የስታክስ ግንባታ ጊዜው አልፎበታል። \n\nMomoPay ን መጠቀሙን ለመቀጠል የቅርብ ጊዜውን ግንባታ ያውርዱ።</string>
 
     <string name="btn_download">አዲስ ስሪት ያውርዱ</string>
 
@@ -589,7 +589,7 @@
 
     <string name="bounty_email_stage_desc1">
     ስታክስ ከመስመር ውጭ በማንኛውም ቦታ ዲጂታል ገንዘብን ለማንም ሰው ማግኘት ይፈልጋል። በብዙ አገሮች ውስጥ ስቴክስን ወደ ብዙ ሰዎች ለማምጣት በዓለም ውስጥ ያሉትን ሁሉንም የ USSD አገልግሎቶች ካርታ መገንባት አለብን።
-    <b> በሚቀጥለው ገጽ ላይ በማንኛውም የ USSD ፍሰቶች ውስጥ ለማለፍ Stax 5-50 ዶላር የሚከፍልዎት ለዚህ ነው።</b>
+    <b> በሚቀጥለው ገጽ ላይ በማንኛውም የ USSD ፍሰቶች ውስጥ ለማለፍ MomoPay 5-50 ዶላር የሚከፍልዎት ለዚህ ነው።</b>
   </string>
 
     <string name="bounty_email_stage_desc2">
@@ -722,7 +722,7 @@
     <u>አሁን ለማንበብ መታ ያድርጉ</u>
   </string>
 
-    <string name="banner_gist_title">ብቸኛ የ Stax gist ይፈልጋሉ?</string>
+    <string name="banner_gist_title">ብቸኛ የ MomoPay gist ይፈልጋሉ?</string>
 
     <string name="banner_gist_cta">
     <u>ለደብዳቤ መላኪያ ዝርዝራችን አሁን ይመዝገቡ</u>
@@ -760,7 +760,7 @@
 
     <string name="faq_title">ተደጋግሞ የሚነሱ ጥያቄዎች</string>
 
-    <string name="faq_content"> %1$s &lt;p/&gt;አሁንም ጥያቄዎች አሉዎት? &lt;p/&gt; &lt;a href="mailto:support@stax.me?subject=Stax-support-%2$s"&gt;&lt;u&gt; &lt;b&gt;&lt;font color=#1878F9&gt; የኢሜይል stax ድጋፍ &lt;/b&gt;&lt;u&gt;&lt;/a&gt;</string>
+    <string name="faq_content"> %1$s &lt;p/&gt;አሁንም ጥያቄዎች አሉዎት? &lt;p/&gt; &lt;a href="mailto:support@stax.me?subject=MomoPay-support-%2$s"&gt;&lt;u&gt; &lt;b&gt;&lt;font color=#1878F9&gt; የኢሜይል MomoPay ድጋፍ &lt;/b&gt;&lt;u&gt;&lt;/a&gt;</string>
 
     <string name="loading">በመጫን ላይ…</string>
 

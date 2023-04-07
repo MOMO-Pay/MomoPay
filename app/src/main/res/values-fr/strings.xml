@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2023 Stax
+     Copyright 2023 MomoPay
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -80,11 +80,11 @@
 
     <string name="stax_tagline">Déplacez de l\'argent sans stress</string>
 
-    <string name="splash_screen_img_desc">Fond de Stax</string>
+    <string name="splash_screen_img_desc">Fond de MomoPay</string>
 
     <string name="slide_1_title">Faites toutes vos transactions hors ligne !</string>
 
-    <string name="slide_1_desc">Vous n\'avez pas besoin d\'Internet pour transférer de l\'argent ou vérifier les soldes de votre compte sur Stax.</string>
+    <string name="slide_1_desc">Vous n\'avez pas besoin d\'Internet pour transférer de l\'argent ou vérifier les soldes de votre compte sur MomoPay.</string>
 
     <string name="slide_2_title">Déplacez de l\'argent sans stress !</string>
 
@@ -92,7 +92,7 @@
 
     <string name="slide_3_title">Tous vos comptes financiers dans une seule application.</string>
 
-    <string name="slide_3_desc">Liez tous vos comptes bancaires et d\'argent mobile à Stax et transférez de l\'argent à partir d\'un seul endroit.</string>
+    <string name="slide_3_desc">Liez tous vos comptes bancaires et d\'argent mobile à MomoPay et transférez de l\'argent à partir d\'un seul endroit.</string>
 
     <!-- Home -->
 
@@ -144,11 +144,11 @@
 
     <string name="check_balance_title">Vérifier le solde</string>
 
-    <string name="check_balance_desc">Joli ! Vous avez ajouté votre premier compte. Vous pouvez maintenant consulter votre solde sur Stax.</string>
+    <string name="check_balance_desc">Joli ! Vous avez ajouté votre premier compte. Vous pouvez maintenant consulter votre solde sur MomoPay.</string>
 
-    <string name="check_balance_alt">Joli ! Compte ajouté avec succès. Vous pouvez maintenant consulter votre solde sur Stax.</string>
+    <string name="check_balance_alt">Joli ! Compte ajouté avec succès. Vous pouvez maintenant consulter votre solde sur MomoPay.</string>
 
-    <string name="check_balance_alt_plural">Joli ! Comptes ajoutés avec succès. Vous pouvez maintenant consulter votre solde sur Stax.</string>
+    <string name="check_balance_alt_plural">Joli ! Comptes ajoutés avec succès. Vous pouvez maintenant consulter votre solde sur MomoPay.</string>
 
     <string name="later">Plus tard</string>
 
@@ -164,7 +164,7 @@
 
     <string name="add_an_account">+ Ajouter un compte</string>
 
-    <string name="add_accounts_to_stax">Ajouter des comptes à Stax</string>
+    <string name="add_accounts_to_stax">Ajouter des comptes à MomoPay</string>
 
     <!-- Permissions -->
 
@@ -178,7 +178,7 @@
 
     <string name="perm_dialoghead">Une dernière chose…</string>
 
-    <string name="perm_dialogbody">Stax a besoin de deux autorisations pour %1$s.</string>
+    <string name="perm_dialogbody">MomoPay a besoin de deux autorisations pour %1$s.</string>
 
     <string name="use_ussd">utiliser USSD</string>
 
@@ -192,7 +192,7 @@
 
     <string name="move_money">Déplacer de l\'argent</string>
 
-    <string name="perm_accessibiltiy_dialogbody">Stax a besoin d\'une autorisation d\'accessibilité pour %1$s</string>
+    <string name="perm_accessibiltiy_dialogbody">MomoPay a besoin d\'une autorisation d\'accessibilité pour %1$s</string>
 
     <string name="perm_progress1">Étape 1 sur 2: Autorisation d\'affichage</string>
 
@@ -354,7 +354,7 @@
 
     <string name="btn_addcontact">+ Ajouter une autre personne</string>
 
-    <string name="sms_request_template">Veuillez me staxer %1$s dans les meilleurs délais. %2$s%3$s</string>
+    <string name="sms_request_template">Veuillez me MomoPayer %1$s dans les meilleurs délais. %2$s%3$s</string>
 
     <string name="sms_amount_detail">%1$s </string>
 
@@ -362,7 +362,7 @@
 
     <string name="reqsave_head">Enregistrer la demande ?</string>
 
-    <string name="toast_error_smsperm">Vous devez accorder l\'autorisation de lecture de SMS pour que Stax puisse savoir quand une demande est envoyée ou satisfaite.</string>
+    <string name="toast_error_smsperm">Vous devez accorder l\'autorisation de lecture de SMS pour que MomoPay puisse savoir quand une demande est envoyée ou satisfaite.</string>
 
     <string name="reqsave_msg">Il semble que vous n\'ayez pas envoyé votre demande. Souhaitez-vous quand même l\'enregistrer ?</string>
 
@@ -446,15 +446,15 @@
 
     <string name="notify_default_channel_descrip">Afficher les notifications pour effectuer des transferts et des demandes planifiés par vous.</string>
 
-    <string name="notify_transfer">Il est temps de transférer de l\'argent %1$s avec Stax.</string>
+    <string name="notify_transfer">Il est temps de transférer de l\'argent %1$s avec MomoPay.</string>
 
     <string name="notify_transfer_cta">Transférer maintenant</string>
 
-    <string name="notify_request">Il est temps d\'envoyer une demande d\'argent à %1$s avec Stax.</string>
+    <string name="notify_request">Il est temps d\'envoyer une demande d\'argent à %1$s avec MomoPay.</string>
 
     <string name="notify_request_cta">Envoyer une demande</string>
 
-    <string name="notify_airtime">Il est temps d\'acheter du temps d\'antenne avec Stax.</string>
+    <string name="notify_airtime">Il est temps d\'acheter du temps d\'antenne avec MomoPay.</string>
 
     <string name="notify_airtime_cta">Acheter du temps d\'antenne</string>
 
@@ -502,11 +502,11 @@
 
     <string name="security_cardhead">Sécurité</string>
 
-    <string name="security_cardbody">Stax répond aux critères de la classification de sécurité 740.17(b)(3)(i) du Bureau of Industry and Security des États-Unis. Ce logiciel utilise HTTPS pour la communication avec le serveur ; cryptage RSA à clé symétrique pour stocker temporairement les informations d\'identification de l\'utilisateur sur son propre appareil à l\'aide d\'Android Keystore ; et obfuscation de code à l\'aide de DRM.</string>
+    <string name="security_cardbody">MomoPay répond aux critères de la classification de sécurité 740.17(b)(3)(i) du Bureau of Industry and Security des États-Unis. Ce logiciel utilise HTTPS pour la communication avec le serveur ; cryptage RSA à clé symétrique pour stocker temporairement les informations d\'identification de l\'utilisateur sur son propre appareil à l\'aide d\'Android Keystore ; et obfuscation de code à l\'aide de DRM.</string>
 
     <string name="defaultacct_label">Compte par défaut</string>
 
-    <string name="security_head">Sécuriser avec Stax</string>
+    <string name="security_head">Sécuriser avec MomoPay</string>
 
     <string name="btn_removepins">Supprimer les codes NIP</string>
 
@@ -516,7 +516,7 @@
 
     <string name="btn_removeaccount">Supprimer le compte</string>
 
-    <string name="removepins_dialogmes">Vous pouvez à nouveau ajouter vos codes NIP à Stax à tout moment.</string>
+    <string name="removepins_dialogmes">Vous pouvez à nouveau ajouter vos codes NIP à MomoPay à tout moment.</string>
 
     <string name="toast_confirm_removepin">PIN supprimé avec succès</string>
 
@@ -540,21 +540,21 @@
 
     <string name="stax_twitter_url" translatable="false">http://twitter.com/joinstax</string>
 
-    <string name="receive_stax_updates">Recevez les mises à jour Stax</string>
+    <string name="receive_stax_updates">Recevez les mises à jour MomoPay</string>
 
     <string name="FAQs">FAQ</string>
 
-    <string name="request_feature">Demandez une fonctionnalité dans Stax</string>
+    <string name="request_feature">Demandez une fonctionnalité dans MomoPay</string>
 
     <string name="stax_support_email">support\@stax.me</string>
 
-    <string name="stax_emailing_subject">Identifiant d\'assistance Stax – %1$s</string>
+    <string name="stax_emailing_subject">Identifiant d\'assistance MomoPay – %1$s</string>
 
     <string name="send_email_using">Envoyer un courrier en utilisant…</string>
 
     <!-- System auth check -->
 
-    <string name="auth_title">S\'authentifier avec Stax</string>
+    <string name="auth_title">S\'authentifier avec MomoPay</string>
 
     <string name="auth_descrip">Authentifiez-vous avec votre empreinte digitale</string>
 
@@ -562,7 +562,7 @@
 
     <!-- Self destruct -->
 
-    <string name="destruct_cardbody">Cette version de Stax a expiré. \n\nTéléchargez la dernière version pour continuer à utiliser Stax.</string>
+    <string name="destruct_cardbody">Cette version de MomoPay a expiré. \n\nTéléchargez la dernière version pour continuer à utiliser MomoPay.</string>
 
     <string name="btn_download">Téléchargez la nouvelle version</string>
 
@@ -570,7 +570,7 @@
 
     <string name="btn_uninstall">Désinstaller</string>
 
-    <string name="notify_download_head">Mise à jour Stax</string>
+    <string name="notify_download_head">Mise à jour MomoPay</string>
 
     <string name="notify_download_body">Téléchargement</string>
 
@@ -620,15 +620,15 @@
 
     <string name="bounty_title">SOYEZ PAYÉ ! CARTE DES FLUX USSD</string>
 
-    <string name="bounty_msg">Stax vous paiera 5 $à 50 $ US pour passer par un flux USSD.</string>
+    <string name="bounty_msg">MomoPay vous paiera 5 $à 50 $ US pour passer par un flux USSD.</string>
 
     <string name="get_started">Commencer</string>
 
     <string name="bounty_email_stage_title">&#128506;️ CARTE DES FLUX USSD</string>
 
     <string name="bounty_email_stage_desc1">
-    Stax veut rendre l\'argent numérique accessible à tous, n\'importe où hors ligne. Pour apporter Stax à plus de personnes dans plus de pays, nous devons créer une carte de tous les services USSD dans le monde.
-    <b> C\'est pourquoi Stax vous paiera 5 à 50 USD pour parcourir l\'un des flux USSD de la page suivante.</b>
+    MomoPay veut rendre l\'argent numérique accessible à tous, n\'importe où hors ligne. Pour apporter MomoPay à plus de personnes dans plus de pays, nous devons créer une carte de tous les services USSD dans le monde.
+    <b> C\'est pourquoi MomoPay vous paiera 5 à 50 USD pour parcourir l\'un des flux USSD de la page suivante.</b>
   </string>
 
     <string name="bounty_email_stage_desc2">
@@ -639,7 +639,7 @@
     <b>3.</b>
        Parcourez le flux USSD normalement.\n
     <b>4.</b>
-       Stax vérifiera le flux.\n
+       MomoPay vérifiera le flux.\n
     <b>5.</b>
        Vous êtes payé.
   </string>
@@ -746,25 +746,25 @@
 
     <string name="unknown_login_error">Cela arrive rarement, mais si l\'erreur persiste, veuillez fermer l\'application et redémarrer.</string>
 
-    <string name="no_account_selected_error">Veuillez choisir au moins un compte à ajouter à Stax</string>
+    <string name="no_account_selected_error">Veuillez choisir au moins un compte à ajouter à MomoPay</string>
 
     <!-- IN-APP BANNERS -->
 
     <string name="banner_permission_title">SIM, SMS, accessibilité et superposition</string>
 
-    <string name="banner_permission_desc">Pourquoi Stax demande-t-il ces autorisations ?</string>
+    <string name="banner_permission_desc">Pourquoi MomoPay demande-t-il ces autorisations ?</string>
 
     <string name="banner_permission_cta">
     <u>Appuyez ici pour le découvrir</u>
   </string>
 
-    <string name="banner_roundupnews_title">Rattrapez-vous sur le dernier résumé mensuel de Stax</string>
+    <string name="banner_roundupnews_title">Rattrapez-vous sur le dernier résumé mensuel de MomoPay</string>
 
     <string name="banner_roundupnews_cta">
     <u>Appuyez pour lire maintenant</u>
   </string>
 
-    <string name="banner_gist_title">Vous voulez l\'essentiel exclusif de Stax ?</string>
+    <string name="banner_gist_title">Vous voulez l\'essentiel exclusif de MomoPay ?</string>
 
     <string name="banner_gist_cta">
     <u>Abonnez-vous à notre liste de diffusion maintenant</u>
@@ -776,9 +776,9 @@
     <u>Donnez des commentaires maintenant</u>
   </string>
 
-    <string name="stax_banner_img_desc">Icône de bannière Stax</string>
+    <string name="stax_banner_img_desc">Icône de bannière MomoPay</string>
 
-    <string name="banner_research_title">Vous voulez être payé pour rendre Stax encore meilleur ?</string>
+    <string name="banner_research_title">Vous voulez être payé pour rendre MomoPay encore meilleur ?</string>
 
     <string name="banner_research_cta">Inscrivez-vous à une étude de recherche aujourd\'hui&#13;\n</string>
 

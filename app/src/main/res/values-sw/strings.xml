@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2023 Stax
+     Copyright 2023 MomoPay
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -80,11 +80,11 @@
 
     <string name="stax_tagline">Hamisha pesa bila mafadhaiko</string>
 
-    <string name="splash_screen_img_desc">Mandhari-nyuma wa Stax</string>
+    <string name="splash_screen_img_desc">Mandhari-nyuma wa MomoPay</string>
 
     <string name="slide_1_title">Fanya Shughuli Zako Zote Nje ya Mtandao!</string>
 
-    <string name="slide_1_desc">Huna haja ya mtandao kuhamisha pesa au kuangalia masalio ya akaunti yako kwenye Stax.</string>
+    <string name="slide_1_desc">Huna haja ya mtandao kuhamisha pesa au kuangalia masalio ya akaunti yako kwenye MomoPay.</string>
 
     <string name="slide_2_title">Hamisha Pesa&#13;\nBila Mafadhaiko!</string>
 
@@ -92,7 +92,7 @@
 
     <string name="slide_3_title">Akaunti Zako Zote za Fedha katika Programu Moja.</string>
 
-    <string name="slide_3_desc">Unganisha akaunti zako zote za benki na pesa za rununu kwa Stax na uhamishe pesa kutoka sehemu moja.</string>
+    <string name="slide_3_desc">Unganisha akaunti zako zote za benki na pesa za rununu kwa MomoPay na uhamishe pesa kutoka sehemu moja.</string>
 
     <!-- Home -->
 
@@ -144,11 +144,11 @@
 
     <string name="check_balance_title">Angalia salio</string>
 
-    <string name="check_balance_desc">Vizuri! Umeongeza akaunti yako ya kwanza. Sasa unaweza kuangalia salio lako kwenye Stax.</string>
+    <string name="check_balance_desc">Vizuri! Umeongeza akaunti yako ya kwanza. Sasa unaweza kuangalia salio lako kwenye MomoPay.</string>
 
-    <string name="check_balance_alt">Vizuri! Akaunti imeongezwa kwa mafanikio. Sasa unaweza kuangalia salio lako kwenye Stax.</string>
+    <string name="check_balance_alt">Vizuri! Akaunti imeongezwa kwa mafanikio. Sasa unaweza kuangalia salio lako kwenye MomoPay.</string>
 
-    <string name="check_balance_alt_plural">Vizuri! Akaunti zimeongezwa kwa mafanikio. Sasa unaweza kuangalia salio lako kwenye Stax.</string>
+    <string name="check_balance_alt_plural">Vizuri! Akaunti zimeongezwa kwa mafanikio. Sasa unaweza kuangalia salio lako kwenye MomoPay.</string>
 
     <string name="later">Baadae</string>
 
@@ -164,7 +164,7 @@
 
     <string name="add_an_account">Ongeza akaunti</string>
 
-    <string name="add_accounts_to_stax">Ongeza akaunti kwa Stax</string>
+    <string name="add_accounts_to_stax">Ongeza akaunti kwa MomoPay</string>
 
     <!-- Permissions -->
 
@@ -178,7 +178,7 @@
 
     <string name="perm_dialoghead">Jambo la mwisho…</string>
 
-    <string name="perm_dialogbody">Stax inahitaji ruhusa 2 kwa %1$s.</string>
+    <string name="perm_dialogbody">MomoPay inahitaji ruhusa 2 kwa %1$s.</string>
 
     <string name="use_ussd">tumia USSD</string>
 
@@ -192,7 +192,7 @@
 
     <string name="move_money">hamisha pesa</string>
 
-    <string name="perm_accessibiltiy_dialogbody">Stax inahitaji ruhusa ya ufikivu kwa %1$s</string>
+    <string name="perm_accessibiltiy_dialogbody">MomoPay inahitaji ruhusa ya ufikivu kwa %1$s</string>
 
     <string name="perm_progress1">Hatua ya 1 kati ya 2: Onyesha ruhusa</string>
 
@@ -354,7 +354,7 @@
 
     <string name="btn_addcontact">+ Ongeza mtu mwingine</string>
 
-    <string name="sms_request_template">Tafadhali nitumie Stax %1$s haraka unavyoweza %2$s%3$s</string>
+    <string name="sms_request_template">Tafadhali nitumie MomoPay %1$s haraka unavyoweza %2$s%3$s</string>
 
     <string name="sms_amount_detail">%1$s </string>
 
@@ -362,7 +362,7 @@
 
     <string name="reqsave_head">Hifadhi ombi?</string>
 
-    <string name="toast_error_smsperm">Lazima uipe ruhusa ya kusoma SMS ili Stax iweze kujua wakati ombi limetumwa au kutimizwa.</string>
+    <string name="toast_error_smsperm">Lazima uipe ruhusa ya kusoma SMS ili MomoPay iweze kujua wakati ombi limetumwa au kutimizwa.</string>
 
     <string name="reqsave_msg">Inaonekana haujatuma ombi lako. Je, ungependa kuihifadhi hata hivyo?</string>
 
@@ -446,15 +446,15 @@
 
     <string name="notify_default_channel_descrip">Onyesha arifa za kufanya uhamisho na maombi uliyoyapanga.</string>
 
-    <string name="notify_transfer">Ni wakati wa kuhamisha pesa %1$s na Stax.</string>
+    <string name="notify_transfer">Ni wakati wa kuhamisha pesa %1$s na MomoPay.</string>
 
     <string name="notify_transfer_cta">Hamisha sasa</string>
 
-    <string name="notify_request">Ni wakati wa kutuma ombi la pesa kwa %1$s na Stax.</string>
+    <string name="notify_request">Ni wakati wa kutuma ombi la pesa kwa %1$s na MomoPay.</string>
 
     <string name="notify_request_cta">Tuma ombi</string>
 
-    <string name="notify_airtime">Ni wakati wa kununua muda wa maongezi na Stax.</string>
+    <string name="notify_airtime">Ni wakati wa kununua muda wa maongezi na MomoPay.</string>
 
     <string name="notify_airtime_cta">Nunua muda wa maongezi</string>
 
@@ -502,11 +502,11 @@
 
     <string name="security_cardhead">Usalama</string>
 
-    <string name="security_cardbody">Stax inakidhi vigezo vya 740.17(b)(3) (i) uainishaji wa usalama wa Ofisi ya Viwanda na Usalama ya Marekani. Programu hii hutumia HTTPS kwa mawasiliano ya seva; usimbuaji fiche wa RSA muhimu ili kuhifadhi kwa muda vitambulisho vya mtumiaji kwenye kifaa chake kwa kutumia Android Keystore; na usimbuaji nambari kwa kutumia DRM.</string>
+    <string name="security_cardbody">MomoPay inakidhi vigezo vya 740.17(b)(3) (i) uainishaji wa usalama wa Ofisi ya Viwanda na Usalama ya Marekani. Programu hii hutumia HTTPS kwa mawasiliano ya seva; usimbuaji fiche wa RSA muhimu ili kuhifadhi kwa muda vitambulisho vya mtumiaji kwenye kifaa chake kwa kutumia Android Keystore; na usimbuaji nambari kwa kutumia DRM.</string>
 
     <string name="defaultacct_label">Akaunti chaguo-msingi</string>
 
-    <string name="security_head">Salama na Stax</string>
+    <string name="security_head">Salama na MomoPay</string>
 
     <string name="btn_removepins">Ondoa PIN</string>
 
@@ -516,7 +516,7 @@
 
     <string name="btn_removeaccount">Ondoa Akaunti</string>
 
-    <string name="removepins_dialogmes">Unaweza kuongeza PIN zako kwenye Stax tena wakati wowote.</string>
+    <string name="removepins_dialogmes">Unaweza kuongeza PIN zako kwenye MomoPay tena wakati wowote.</string>
 
     <string name="toast_confirm_removepin">PIN imeondolewa  kwa mafanikio</string>
 
@@ -540,21 +540,21 @@
 
     <string name="stax_twitter_url" translatable="false">http://twitter.com/joinstax</string>
 
-    <string name="receive_stax_updates">Pokea sasisho za Stax</string>
+    <string name="receive_stax_updates">Pokea sasisho za MomoPay</string>
 
     <string name="FAQs">Maswali Yanayoulizwa mara nyingi</string>
 
-    <string name="request_feature">Omba huduma katika Stax</string>
+    <string name="request_feature">Omba huduma katika MomoPay</string>
 
     <string name="stax_support_email">support\@stax.me</string>
 
-    <string name="stax_emailing_subject">Kitambulisho cha msaada cha Stax - %1$s</string>
+    <string name="stax_emailing_subject">Kitambulisho cha msaada cha MomoPay - %1$s</string>
 
     <string name="send_email_using">Tuma barua ukitumia…</string>
 
     <!-- System auth check -->
 
-    <string name="auth_title">Thibitisha na Stax</string>
+    <string name="auth_title">Thibitisha na MomoPay</string>
 
     <string name="auth_descrip">Thibitisha kwa alama yako ya kidole</string>
 
@@ -562,7 +562,7 @@
 
     <!-- Self destruct -->
 
-    <string name="destruct_cardbody">Ujenzi huu wa Stax umekwisha. \n\nPakua ujenzi wa hivi karibuni ili uendelee kutumia Stax.</string>
+    <string name="destruct_cardbody">Ujenzi huu wa MomoPay umekwisha. \n\nPakua ujenzi wa hivi karibuni ili uendelee kutumia MomoPay.</string>
 
     <string name="btn_download">Pakua toleo jipya</string>
 
@@ -570,7 +570,7 @@
 
     <string name="btn_uninstall">Sakinusha</string>
 
-    <string name="notify_download_head">Sasisho la Stax</string>
+    <string name="notify_download_head">Sasisho la MomoPay</string>
 
     <string name="notify_download_body">Inapakua</string>
 
@@ -620,15 +620,15 @@
 
     <string name="bounty_title">&#128184; PATA KULIPWA! Mtiririko wa Ramani ya USSD</string>
 
-    <string name="bounty_msg">Stax itakulipa USD $5 - $50 kupitia mtiririko wa USSD.</string>
+    <string name="bounty_msg">MomoPay itakulipa USD $5 - $50 kupitia mtiririko wa USSD.</string>
 
     <string name="get_started">Anza</string>
 
     <string name="bounty_email_stage_title">&#128506;️  Mtiririko wa Ramani ya USSD</string>
 
     <string name="bounty_email_stage_desc1">
-    Stax inataka kufanya pesa za dijiti zipatikane kwa mtu yeyote mahali popote nje ya mtandao. Ili kuleta Stax kwa watu wengi zaidi katika nchi zaidi, tunahitaji kujenga ramani ya huduma zote za USSD ulimwenguni.
-    <b> Ndio maana Stax itakulipa USD $5-50 kupitia mtiririko wowote wa USSD kwenye ukurasa unaofuata.</b>
+    MomoPay inataka kufanya pesa za dijiti zipatikane kwa mtu yeyote mahali popote nje ya mtandao. Ili kuleta MomoPay kwa watu wengi zaidi katika nchi zaidi, tunahitaji kujenga ramani ya huduma zote za USSD ulimwenguni.
+    <b> Ndio maana MomoPay itakulipa USD $5-50 kupitia mtiririko wowote wa USSD kwenye ukurasa unaofuata.</b>
   </string>
 
     <string name="bounty_email_stage_desc2">
@@ -639,7 +639,7 @@
     <b>3.</b>
        Pitia mtiririko wa USSD kama kawaida.\n
     <b>4.</b>
-       Stax itaangalia mtiririko.\n
+       MomoPay itaangalia mtiririko.\n
     <b>5.</b>
        Unalipwa.
   </string>
@@ -746,25 +746,25 @@
 
     <string name="unknown_login_error">Hii hufanyika mara chache, lakini ikiwa kosa linaendelea, tafadhali funga programu na uanze tena.</string>
 
-    <string name="no_account_selected_error">Tafadhali chagua angalau akaunti moja kuongeza kwenye Stax</string>
+    <string name="no_account_selected_error">Tafadhali chagua angalau akaunti moja kuongeza kwenye MomoPay</string>
 
     <!-- IN-APP BANNERS -->
 
     <string name="banner_permission_title">SIM, SMS, Upatikanaji na Ufunikaji</string>
 
-    <string name="banner_permission_desc">Kwa nini Stax inauliza ruhusa hizi?</string>
+    <string name="banner_permission_desc">Kwa nini MomoPay inauliza ruhusa hizi?</string>
 
     <string name="banner_permission_cta">
     <u>Donoa hapa ili ujue</u>
   </string>
 
-    <string name="banner_roundupnews_title">Pata mkusanyiko mpya wa kila mwezi wa Stax</string>
+    <string name="banner_roundupnews_title">Pata mkusanyiko mpya wa kila mwezi wa MomoPay</string>
 
     <string name="banner_roundupnews_cta">
     <u>Donoa ili usome sasa</u>
   </string>
 
-    <string name="banner_gist_title">Unataka mambo ya kipekee ya Stax?</string>
+    <string name="banner_gist_title">Unataka mambo ya kipekee ya MomoPay?</string>
 
     <string name="banner_gist_cta">
     <u>Jisajili kwenye orodha yetu ya barua sasa</u>
@@ -776,9 +776,9 @@
     <u>Toa maoni sasa</u>
   </string>
 
-    <string name="stax_banner_img_desc">Ikoni ya bango la Stax</string>
+    <string name="stax_banner_img_desc">Ikoni ya bango la MomoPay</string>
 
-    <string name="banner_research_title">Unataka kulipwa ili kufanya Stax iwe bora zaidi?</string>
+    <string name="banner_research_title">Unataka kulipwa ili kufanya MomoPay iwe bora zaidi?</string>
 
     <string name="banner_research_cta">Jisajili kwa utafiti leo</string>
 
@@ -802,7 +802,7 @@
 
     <string name="faq_title">Maswali yanayoulizwa mara nyingi</string>
 
-    <string name="faq_content"> %1$s &lt;p/&gt;Je, bado una maswali? &lt;p/&gt; &lt;a href="mailto:support@stax.me?subject=Stax-support-%2$s"&gt;&lt;u&gt; &lt;b&gt;&lt;font color=#1878F9&gt; Usaidizi wa stax ya barua pepe &lt;/b&gt;&lt;u&gt;&lt;/a&gt;</string>
+    <string name="faq_content"> %1$s &lt;p/&gt;Je, bado una maswali? &lt;p/&gt; &lt;a href="mailto:support@stax.me?subject=MomoPay-support-%2$s"&gt;&lt;u&gt; &lt;b&gt;&lt;font color=#1878F9&gt; Usaidizi wa MomoPay ya barua pepe &lt;/b&gt;&lt;u&gt;&lt;/a&gt;</string>
 
     <string name="loading">Inapakia…</string>
 

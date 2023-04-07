@@ -33,7 +33,7 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Stax"
+rootProject.name = "MomoPay"
 include(":app")
 
 include(":core")

@@ -34,6 +34,7 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import com.hover.stax.R
+import com.hover.stax.ui.theme.ColorPrimary
 import com.hover.stax.ui.theme.ColorSurface
 import com.hover.stax.ui.theme.DarkGray
 import com.hover.stax.ui.theme.OffWhite
@@ -70,7 +71,7 @@ fun EmptyBalance(onClickedAddAccount: () -> Unit) {
                 .shadow(elevation = 0.dp)
                 .then(modifier),
             shape = MaterialTheme.shapes.medium,
-            border = BorderStroke(width = 0.5.dp, color = DarkGray),
+            border = BorderStroke(width = 0.5.dp, color = ColorPrimary),
             colors = ButtonDefaults.buttonColors(
                 backgroundColor = ColorSurface,
                 contentColor = OffWhite

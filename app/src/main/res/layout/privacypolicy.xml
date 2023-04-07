@@ -27,6 +27,6 @@
             app:fontFamily="@font/brutalista_medium"
             android:gravity="center_vertical"
             android:text="@string/privacy_policy_label"
-            android:textColor="@color/brightBluePressed"
+            android:textColor="@color/lightYellow"
             android:visibility="visible" />
 </FrameLayout>

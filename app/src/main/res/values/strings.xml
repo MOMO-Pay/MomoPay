@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2023 Stax
+     Copyright 2023 MomoPay
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -15,7 +15,7 @@
     <string name="amp" public="false" translatable="false">e3b51457136ad623213ade89a42a288f</string>
     <string name="appsflyer_key" public="false" translatable="false">4B6DDdYFw55PmVPTwr8Ski</string>
     <string name="uxcam_key" public="false" translatable="false">obijrn00q2aip9z</string>
-    <string name="app_name" translatable="false">Stax</string>
+    <string name="app_name" translatable="false">MomoPay</string>
     <string name="payment_root_url" translatable="false">https://stax.me/pay?%1$s</string>
     <string name="payment_url_end" translatable="false">%1$s-%2$d-%3$s-%4$d</string>
     <string name="root_url" translatable="false">https://www.usehover.com</string>
@@ -39,7 +39,7 @@
 
     <string name="stax_handle" translatable="false">\@joinstax</string>
 
-    <string name="hsdk_app_name_literal">*Stax#</string>
+    <string name="hsdk_app_name_literal">*MomoPay#</string>
 
     <string name="nav_home">Home</string>
     <string name="nav_balance_and_history">Balance and history</string>
@@ -85,59 +85,59 @@
 
     <!-- ONBOARDING VARIANT ZERO (DEFAULT)-->
     <string name="stax_tagline">Move money without stress</string>
-    <string name="splash_screen_img_desc">Stax background</string>
+    <string name="splash_screen_img_desc">MomoPay background</string>
     <string name="slide_1_title">Secure. Fast. Convenient</string>
     <string name="slide_1_desc">Send money and buy airtime offline using your existing bank and momo accounts</string>
     <string name="onboarding_link_accounts">Link your accounts now</string>
 
     <!-- ONBOARDING VARIANT_1 -->
-    <string name="onboarding_v1_slide1_title">Stax works offline</string>
+    <string name="onboarding_v1_slide1_title">MomoPay works offline</string>
     <string name="onboarding_v1_slide2_title">Send money</string>
     <string name="onboarding_v1_slide3_title">Request money</string>
     <string name="onboarding_v1_slide4_title">Buy airtime</string>
-    <string name="onboarding_v1_general_desc">Continue with Google to enjoy the full Stax experience</string>
+    <string name="onboarding_v1_general_desc">Continue with Google to enjoy the full MomoPay experience</string>
     <string name="continue_with_google">Continue with Google</string>
 
     <string name="slide2_desc">Transfer money securely and easily. No extra charges.</string>
     <string name="slide3_desc">Get paid faster by clients and friends with a simple link.</string>
     <string name="slide4_desc">Top up airtime in seconds for you and your loved ones.</string>
-    <string name="slide1_desc">Use Stax with or without the internet. Anytime. Anywhere.</string>
+    <string name="slide1_desc">Use MomoPay with or without the internet. Anytime. Anywhere.</string>
 
-    <string name="use_stax_no_sigin">Use Stax without sign in</string>
-    <string name="termsOfServiceFullLabel">By continuing, you agree to Stax\'s Terms of service.</string>
+    <string name="use_stax_no_sigin">Use MomoPay without sign in</string>
+    <string name="termsOfServiceFullLabel">By continuing, you agree to MomoPay\'s Terms of service.</string>
     <string name="privacyPolicyFullLabel">See how we use your data in our Privacy Policy.</string>
 
     <!-- ONBOARDING VARIANT_2 -->
-    <string name="welcome_to_stax">Hello, welcome to Stax.</string>
-    <string name="welcome_to_stax_fullContent">If you\’re new to Stax you may have some questions about how the app works. We\'ll help clarify some of these. Select the most relevant option to you.</string>
-    <string name="onboarding_variant_2_question1">Is Stax for me?</string>
-    <string name="skip_prefix">Already know about stax?</string>
+    <string name="welcome_to_stax">Hello, welcome to MomoPay.</string>
+    <string name="welcome_to_stax_fullContent">If you\’re new to MomoPay you may have some questions about how the app works. We\'ll help clarify some of these. Select the most relevant option to you.</string>
+    <string name="onboarding_variant_2_question1">Is MomoPay for me?</string>
+    <string name="skip_prefix">Already know about MomoPay?</string>
     <string name="skip">Skip</string>
 
-    <string name="welcome_title_one">Welcome to Stax!</string>
-    <string name="welcome_sub_one">Welcome to the Stax Community. You are officially a Staxxer. Here\'s a couple of things to get you excited about Stax.</string>
+    <string name="welcome_title_one">Welcome to MomoPay!</string>
+    <string name="welcome_sub_one">Welcome to the MomoPay Community. You are officially a MomoPayer. Here\'s a couple of things to get you excited about MomoPay.</string>
     <string name="welcome_title_two">Woohoo! You\'re exactly who we\'ve been looking for!</string>
 
     <string name="welcome_title_three">We\'ve got you covered!</string>
-    <string name="welcome_sub_two">Here\'s a couple of things to get you excited about Stax.</string>
+    <string name="welcome_sub_two">Here\'s a couple of things to get you excited about MomoPay.</string>
     <string name="intro_feature_one_title">Automated USSD</string>
     <string name="intro_feature_one_desc">No need to remember hundreds of USSD code combinations. We\'ve figured it out for you.</string>
     <string name="intro_feature_two_title">Be in full control of your money</string>
-    <string name="intro_feature_two_desc">Manage and spend from all your banks and mobile money accounts from Stax.</string>
+    <string name="intro_feature_two_desc">Manage and spend from all your banks and mobile money accounts from MomoPay.</string>
     <string name="intro_feature_three_title">Safer by design</string>
     <string name="intro_feature_three_desc">We leveraged Android\'s built in security designs to keep your information secure at all times.</string>
     <string name="explore_btn_text">Continue without sign in</string>
 
-    <string name="does_stax_charge_fees">Does Stax charge fees?</string>
-    <string name="what_does_stax_do">What does Stax do?</string>
+    <string name="does_stax_charge_fees">Does MomoPay charge fees?</string>
+    <string name="what_does_stax_do">What does MomoPay do?</string>
 
-    <string name="is_stax_for_you">To figure out if Stax is for you select as many as best describes you</string>
+    <string name="is_stax_for_you">To figure out if MomoPay is for you select as many as best describes you</string>
     <string name="variant_V2_checkbox_option1">I have used USSD in the past.</string>
     <string name="variant_V2_checkbox_option2">I have more than one bank or Mobile Money account.</string>
     <string name="variant_V2_checkbox_option3">I turn off my mobile data frequently.</string>
     <string name="none_apply">None of these apply to me.</string>
-    <string name="variant_v2_nocheckbox_desc1">Stax does not charge you extra fees. Sometimes your bank or mobile money provider will charge you fees for performing a transaction.\n\nStax keeps track of how much money they charge you.</string>
-    <string name="variant_v2_nocheckbox_desc2">Stax uses USSD technology to make it possible for you to transact offline. With Stax, you can check your account balances, send money, buy airtime, transfer money between your accounts, pay bills, control multiple financial (banks and mobile money) accounts from one app.\n\nYou can also create links that other people with Stax can use to send you money.</string>
+    <string name="variant_v2_nocheckbox_desc1">MomoPay does not charge you extra fees. Sometimes your bank or mobile money provider will charge you fees for performing a transaction.\n\nMomoPay keeps track of how much money they charge you.</string>
+    <string name="variant_v2_nocheckbox_desc2">MomoPay uses USSD technology to make it possible for you to transact offline. With MomoPay, you can check your account balances, send money, buy airtime, transfer money between your accounts, pay bills, control multiple financial (banks and mobile money) accounts from one app.\n\nYou can also create links that other people with MomoPay can use to send you money.</string>
 
     <string name="skip_tutorial">Skip tutorial</string>
 
@@ -169,13 +169,13 @@
     <string name="refresh_balances">Refresh balances</string>
     <string name="refresh">Refresh</string>
     <string name="refresh_balance_error">Add an account to check your balance.</string>
-    <string name="empty_balance_desc">To make any successful transaction add an account. Securely manage your mobile money or bank accounts in one place with Stax</string>
+    <string name="empty_balance_desc">To make any successful transaction add an account. Securely manage your mobile money or bank accounts in one place with MomoPay</string>
     <string name="add_account">Add account</string>
 
     <string name="check_balance_title">Check balance</string>
-    <string name="check_balance_desc">Nice! You added your first account. You can now check your balance on Stax.</string>
-    <string name="check_balance_alt">Nice! Account added successfully. You can now check your balance on Stax.</string>
-    <string name="check_balance_alt_plural">Nice! Accounts added successfully. You can now check your balances on Stax.</string>
+    <string name="check_balance_desc">Nice! You added your first account. You can now check your balance on MomoPay.</string>
+    <string name="check_balance_alt">Nice! Account added successfully. You can now check your balance on MomoPay.</string>
+    <string name="check_balance_alt_plural">Nice! Accounts added successfully. You can now check your balances on MomoPay.</string>
 
     <string name="finish_adding_title">Finish importing account</string>
     <string name="finish_adding_desc">We need to connect with %1$s before you can use your account(s) for transactions. This won\'t take long.</string>
@@ -189,13 +189,13 @@
     <!-- ADD ACCOUNT -->
     <string name="your_accounts">Your accounts</string>
     <string name="add_an_account">Add an account</string>
-    <string name="add_accounts_to_stax">Add accounts to Stax</string>
-    <string name="link_sim_to_stax">Link your SIM cards to Stax</string>
+    <string name="add_accounts_to_stax">Add accounts to MomoPay</string>
+    <string name="link_sim_to_stax">Link your SIM cards to MomoPay</string>
     <string name="link_nth_sim_to_stax">Link your %1$s SIM card</string>
     <string name="your_sim_cards">Your SIM cards</string>
 
     <!-- SIM CARD -->
-    <string name="simpage_permission_alert">Grant Stax permission to show your services available in your location and transaction history</string>
+    <string name="simpage_permission_alert">Grant MomoPay permission to show your services available in your location and transaction history</string>
     <string name="simpage_empty_sims">You\'ve granted necessary permissions, but it seems your do not have a SIM card on this device yet.\n\n Try re-inserting your SIM card, if this did not work, please contact our support team under the settings page of this app.</string>
     <string name="sim_index">Sim %1$d</string>
     <string name="not_present">Not present</string>
@@ -203,14 +203,14 @@
     <string name="as_of">Checked %1$s</string>
     <string name="buy_airitme_bonus">Buy airtime get %1$s%% bonus</string>
     <string name="not_yet_checked">Balance not yet checked</string>
-    <string name="sim_card_support_request_emailSubject">Please, support my SIM card on Stax</string>
+    <string name="sim_card_support_request_emailSubject">Please, support my SIM card on MomoPay</string>
     <string name="sim_card_support_request_emailBody">Autogenerated network provider information (Please do not edit):\n\n OS Reported HNI: %1$s.\n Network name: %2$s,\n Network operator: %3$s,\n Network country: %4$s </string>
     <string name="unsupported">Unsupported</string>
     <string name="unknown">Unknown</string>
     <string name="unsupported_sim_info">If this SIM supports USSD please reach out to our team so we can integrate it.</string>
 
     <string name="search">Search</string>
-    <string name="no_accounts_found_desc"><![CDATA[ It looks like "<b><font color="#39CBFC"> %1$s </font> </b>" has not been listed on Stax yet or its an invalid entry.<br/>Try searching for something else.]]></string>
+    <string name="no_accounts_found_desc"><![CDATA[ It looks like "<b><font color="#39CBFC"> %1$s </font> </b>" has not been listed on MomoPay yet or its an invalid entry.<br/>Try searching for something else.]]></string>
     <string name="cant_find_institution">Can\'t find your financial institution?</string>
     <string name="inform_us_here">Inform us here</string>
 
@@ -220,7 +220,7 @@
     <string name="enter_financial_inst_err">Enter financial institution name</string>
     <string name="enter_shortcode_err">Enter the accurate shortcode</string>
     <string name="thank_you">Thank you</string>
-    <string name="service_request_success_desc">Rest assured the Stax team will review and get right to adding this service soon</string>
+    <string name="service_request_success_desc">Rest assured the MomoPay team will review and get right to adding this service soon</string>
 
     <string name="nickname">Nickname</string>
     <string name="label_saved">Saved</string>
@@ -239,29 +239,29 @@
     <!-- Permissions -->
     <string name="permissions_title">Permissions needed</string>
     <string name="permissions_basic_title">Grant us phone and SMS permission.</string>
-    <string name="perms_basic_desc">To find all your various accounts and detect transactions on those accounts, allow Stax access to your phone and SMSs.</string>
-    <string name="permissions_overlay_path">Settings > Apps > Appear on top > Stax</string>
-    <string name="permissions_overlay_desc">This allows Stax to show you the transaction progress.</string>
-    <string name="permissions_accessibility_path">Settings > Accessibility > Installed Services > Stax</string>
-    <string name="permissions_accessibility_desc">This allows Stax to automate USSD sessions at your command.</string>
-    <string name="permissions_accessibility_more">Learn how Stax uses your data.</string>
-    <string name="accessibility_data_info">Stax uses accessibility services to transmit data you provide to USSD providers. Stax collects the text of these USSD sessions to ensure the reliability of our USSD automation and provide you with helpful statuses. This data is not shared with any third parties.</string>
+    <string name="perms_basic_desc">To find all your various accounts and detect transactions on those accounts, allow MomoPay access to your phone and SMSs.</string>
+    <string name="permissions_overlay_path">Settings > Apps > Appear on top > MomoPay</string>
+    <string name="permissions_overlay_desc">This allows MomoPay to show you the transaction progress.</string>
+    <string name="permissions_accessibility_path">Settings > Accessibility > Installed Services > MomoPay</string>
+    <string name="permissions_accessibility_desc">This allows MomoPay to automate USSD sessions at your command.</string>
+    <string name="permissions_accessibility_more">Learn how MomoPay uses your data.</string>
+    <string name="accessibility_data_info">MomoPay uses accessibility services to transmit data you provide to USSD providers. MomoPay collects the text of these USSD sessions to ensure the reliability of our USSD automation and provide you with helpful statuses. This data is not shared with any third parties.</string>
     <string name="app_permissions">App permissions</string>
     <string name="manage_permissions_title">Manage permissions</string>
     <string name="perm_calls_title">Calls</string>
-    <string name="perm_calls_desc">Stax needs this permission to be able to detect services available to you.</string>
+    <string name="perm_calls_desc">MomoPay needs this permission to be able to detect services available to you.</string>
     <string name="perm_sms_title">SMS</string>
-    <string name="perm_sms_desc">Stax needs this permission to be able to detect transaction statuses via SMS</string>
+    <string name="perm_sms_desc">MomoPay needs this permission to be able to detect transaction statuses via SMS</string>
     <string name="perm_display_title">Display</string>
-    <string name="perm_display_desc">Stax needs this permission to be able to dial USSD codes on your behalf and show you the transaction progress</string>
+    <string name="perm_display_desc">MomoPay needs this permission to be able to dial USSD codes on your behalf and show you the transaction progress</string>
     <string name="perm_accessibility_title">Accessibility</string>
-    <string name="perm_accessibility_desc">Stax needs this permission to check your balances, transfer money and more</string>
+    <string name="perm_accessibility_desc">MomoPay needs this permission to check your balances, transfer money and more</string>
 
 
     <string name="permission_support_desc">We need phone permissions to generate your support ID</string>
     <string name="nav_sim_permission">Grant SIM permission</string>
     <string name="perm_dialoghead">One last thing…</string>
-    <string name="perm_dialogbody">To %1$s please allow Stax to show an overlay.</string>
+    <string name="perm_dialogbody">To %1$s please allow MomoPay to show an overlay.</string>
     <string name="use_ussd">use USSD</string>
     <string name="buy_airtime">buy airtime</string>
     <string name="check_balance">check balance</string>
@@ -269,7 +269,7 @@
     <string name="send_money">send money</string>
     <string name="send_money_to">send money to</string>
     <string name="move_money">move money</string>
-    <string name="perm_accessibiltiy_dialogbody">To %1$s please allow Stax to use Accessibility Services.</string>
+    <string name="perm_accessibiltiy_dialogbody">To %1$s please allow MomoPay to use Accessibility Services.</string>
     <string name="perm_progress1">Step 1 of 2: Overlay permission</string>
     <string name="perm_progress2">Step 2 of 2: Accessibility permission</string>
     <string name="perm_progress_no_steps">Please grant accessibility permission</string>
@@ -277,7 +277,7 @@
     <string name="perm_cta2">Show settings again</string>
 
     <!-- Share Excitement -->
-    <string name="share_desc">Share Stax with your friends</string>
+    <string name="share_desc">Share MomoPay with your friends</string>
     <string name="share">Share</string>
     <string name="transaction_successful">Transaction successful</string>
 
@@ -328,7 +328,7 @@
     <string name="hsdk_accessibility_sub">Services</string>
     <string name="hsdk_enable_accessibility">Enable Accessibility</string>
     <string name="access_service_summary">Connect with Mobile Money and Telecom services on your behalf</string>
-    <string name="access_service_descript">Stax uses accessibility services to transmit data you provide to USSD providers. Stax collects the text of these USSD sessions to ensure the reliability of our USSD automation and provide you with helpful statuses. This data is not shared with any third parties.</string>
+    <string name="access_service_descript">MomoPay uses accessibility services to transmit data you provide to USSD providers. MomoPay collects the text of these USSD sessions to ensure the reliability of our USSD automation and provide you with helpful statuses. This data is not shared with any third parties.</string>
     <string name="hsdk_manual_env">Manual environment active. The USSD menu text will be recorded.</string>
     <string name="hsdk_overlay_header">Transacting</string>
     <string name="hsdk_complete">Transaction complete</string>
@@ -412,11 +412,11 @@
     <string name="amount_label_opt">Amount (Optional)</string>
     <string name="reqfrom_label">To</string>
     <string name="btn_addcontact">+ Add another person</string>
-    <string name="sms_request_template">Kindly stax me %1$s at your earliest convenience. %2$s %3$s</string>
+    <string name="sms_request_template">Kindly MomoPay me %1$s at your earliest convenience. %2$s %3$s</string>
     <string name="sms_amount_detail">%1$s </string>
     <string name="sms_note_detail">Note: \"%1$s\" </string>
     <string name="reqsave_head">Save request?</string>
-    <string name="toast_error_smsperm">You must grant the read SMS permission so Stax can tell when a request is sent or fulfilled.</string>
+    <string name="toast_error_smsperm">You must grant the read SMS permission so MomoPay can tell when a request is sent or fulfilled.</string>
     <string name="reqsave_msg">Looks like you haven\'t sent your request. Would you like to save it anyway?</string>
     <string name="toast_confirm_request">Your request has been saved.</string>
     <string name="toast_request_scheduled">Your request has been scheduled. You will be reminded to send a message on %1$s</string>
@@ -462,11 +462,11 @@
     <!-- Notifications -->
     <string name="notify_default_title">User scheduled</string>
     <string name="notify_default_channel_descrip">Show notifications to make transfers and requests scheduled by you.</string>
-    <string name="notify_transfer">It\'s time to transfer money %1$s with Stax.</string>
+    <string name="notify_transfer">It\'s time to transfer money %1$s with MomoPay.</string>
     <string name="notify_transfer_cta">Transfer now</string>
-    <string name="notify_request">It\'s time to send a money request to %1$s with Stax.</string>
+    <string name="notify_request">It\'s time to send a money request to %1$s with MomoPay.</string>
     <string name="notify_request_cta">Send request</string>
-    <string name="notify_airtime">It\'s time to buy airtime with Stax.</string>
+    <string name="notify_airtime">It\'s time to buy airtime with MomoPay.</string>
     <string name="notify_airtime_cta">Buy airtime</string>
 
     <!-- Details -->
@@ -483,7 +483,7 @@
     <string name="institution_label">Recipient institution</string>
     <string name="network_label">Recipient network</string>
     <string name="id_label">Transaction ID</string>
-    <string name="stax_id_label">Stax ID</string>
+    <string name="stax_id_label">MomoPay ID</string>
     <string name="session_cardhead">USSD log</string>
     <string name="session_fullDesc_cardhead">USSD log for %1$s - %2$s</string>
 
@@ -504,7 +504,7 @@
 
     <!-- INFO SYSTEM -->
     <string name="transaction_status_info_title">About transaction status</string>
-    <string name="transaction_status_info_content">Stax works by sending USSD messages in the background. Transaction status depends on your mobile money provider and bank availability. We do not hold money.</string>
+    <string name="transaction_status_info_content">MomoPay works by sending USSD messages in the background. Transaction status depends on your mobile money provider and bank availability. We do not hold money.</string>
 
 
     <!-- Canceling -->
@@ -520,20 +520,20 @@
     <!-- Settings -->
     <string name="meta_cardhead">Options</string>
     <string name="share_text">Share</string>
-    <string name="share_stax">Share Stax</string>
+    <string name="share_stax">Share MomoPay</string>
     <string name="first_login_dialoghead">First, please sign in</string>
     <string name="add_referee_info">View referral info</string>
     <string name="saved_referral">Saved referral</string>
     <string name="copied">Copied</string>
-    <string name="share_sub">Stax app</string>
+    <string name="share_sub">MomoPay app</string>
     <string name="share_explain">Share app via</string>
-    <string name="share_msg">Check out Stax, an app that automates USSD. https://play.google.com/store/apps/details?id=com.hover.stax</string>
+    <string name="share_msg">Check out MomoPay, an app that automates USSD. https://play.google.com/store/apps/details?id=com.hover.stax</string>
     <string name="connect_accounts">Connect your accounts</string>
 
     <string name="login_google_err">An error occurred while signing in to Google. Please try again.</string>
     <string name="referral_text">Your code:</string>
     <string name="referral_label">Agent\'s code</string>
-    <string name="privacy_policy_label">By using Stax App, you\'ve read our privacy policy and agree to the terms of service. Click to read</string>
+    <string name="privacy_policy_label">By using MomoPay App, you\'ve read our privacy policy and agree to the terms of service. Click to read</string>
     <string name="dialog_confirm_logout_header">Confirm Logout</string>
     <string name="logout_out_success">Logout successful</string>
     <string name="dialog_confirm_logout_desc">Are you sure you want to logout?</string>
@@ -551,13 +551,13 @@
     <string name="referral_error_try_again">Please try again after a few seconds</string>
 
     <string name="security_cardhead">Security</string>
-    <string name="security_cardbody">Stax meets the criteria of 740.17(b)(3) (i) security classification of the United States Bureau of Industry and Security. This software uses HTTPS for server communication; symmetric key RSA encryption to temporarily store the user\'s credentials on their own device using Android Keystore; and code obfuscation using DRM.</string>
+    <string name="security_cardbody">MomoPay meets the criteria of 740.17(b)(3) (i) security classification of the United States Bureau of Industry and Security. This software uses HTTPS for server communication; symmetric key RSA encryption to temporarily store the user\'s credentials on their own device using Android Keystore; and code obfuscation using DRM.</string>
     <string name="defaultacct_label">Default account</string>
     <string name="manage_account">Manage Account</string>
-    <string name="security_head">Secure with Stax</string>
+    <string name="security_head">Secure with MomoPay</string>
     <string name="removeaccount_dialoghead">Remove %1$s now</string>
     <string name="btn_removeaccount">Remove account</string>
-    <string name="removeaccount_msg">You can add your account to Stax again at any time.</string>
+    <string name="removeaccount_msg">You can add your account to MomoPay again at any time.</string>
     <string name="toast_confirm_removepin">PIN removed successfully</string>
     <string name="btn_savepin">Save PIN</string>
     <string name="btn_editpin">Edit PIN</string>
@@ -570,20 +570,20 @@
     <string name="disclaimer">All products names, brands, and trademarks are property of their respective owners. Use does not imply affiliation.</string>
 
     <string name="learn_stax_cardhead">Learn</string>
-    <string name="stax_features">Features And More on Stax</string>
+    <string name="stax_features">Features And More on MomoPay</string>
     <string name="stax_medium_url">https://stax.me/blog/</string>
 
     <string name="contact_stax_cardhead">Get in touch</string>
     <string name="twitter" translatable="false">Twitter</string>
     <string name="stax_twitter_url" translatable="false">http://twitter.com/joinstax</string>
-    <string name="receive_stax_updates">Receive Stax updates</string>
+    <string name="receive_stax_updates">Receive MomoPay updates</string>
 
     <string name="FAQs">FAQs</string>
-    <string name="request_feature">Request a feature in Stax</string>
+    <string name="request_feature">Request a feature in MomoPay</string>
     <string name="email_support">Email support</string>
     <string name="stax_support_email">help@stax.me</string>
     <string name="stax_support_email_mailTo">https://help@stax.me</string>
-    <string name="stax_emailing_subject">Stax support id - %1$s</string>
+    <string name="stax_emailing_subject">MomoPay support id - %1$s</string>
     <string name="send_email_using">Send mail using…</string>
 
     <string name="account_cardhead">Account</string>
@@ -599,16 +599,16 @@
     <string name="version_code_info">Version code: %1$s</string>
 
     <!-- System auth check -->
-    <string name="auth_title">Authenticate with Stax</string>
+    <string name="auth_title">Authenticate with MomoPay</string>
     <string name="auth_descrip">Authenticate with your fingerprint</string>
     <string name="toast_error_auth">Authentication failed</string>
 
     <!-- Self destruct -->
-    <string name="destruct_cardbody">This build of Stax has expired. \n\nDownload the latest build to keep using Stax.</string>
+    <string name="destruct_cardbody">This build of MomoPay has expired. \n\nDownload the latest build to keep using MomoPay.</string>
     <string name="btn_download">Download new version</string>
     <string name="uninstall_cardbody">Your update is downloading. \n\nClick the button below to uninstall this version. Once your download is complete tap the notification to install the new version.</string>
     <string name="btn_uninstall">Uninstall</string>
-    <string name="notify_download_head">Stax update</string>
+    <string name="notify_download_head">MomoPay update</string>
     <string name="notify_download_body">Downloading</string>
 
     <!-- Time -->
@@ -636,10 +636,10 @@
     <!-- BOUNTY -->
     <string name="nav_bounty">Bounty</string>
     <string name="bounty_title">💸 Money Mapper</string>
-    <string name="bounty_msg">Stax will pay you USD $1 - $5 to go through a USSD flow.</string>
+    <string name="bounty_msg">MomoPay will pay you USD $1 - $5 to go through a USSD flow.</string>
     <string name="get_started">Get started</string>
     <string name="bounty_email_stage_title">Welcome to Money Mapper</string>
-    <string name="bounty_email_stage_desc1">Stax wants to make USSD easier to use for everyone. To bring Stax to more people in more countries, we need to map every USSD menu globally. Money Mappers have the opportunity to earn USD $1 - $5 for every USSD transaction successfully completed. Please follow the instructions below to apply.</string>
+    <string name="bounty_email_stage_desc1">MomoPay wants to make USSD easier to use for everyone. To bring MomoPay to more people in more countries, we need to map every USSD menu globally. Money Mappers have the opportunity to earn USD $1 - $5 for every USSD transaction successfully completed. Please follow the instructions below to apply.</string>
     <string name="bounty_email_stage_desc2"><![CDATA[<b>1.</b> Sign in below with your Google account. <br><br> <b>2.</b> Fill out the <font color=#0091E3><u><a href="https://stax.me/blog/apply-to-become-a-verified-stax-money-mapper-1/">application form</a></u></font>. <br><br> <b>3.</b> You will receive an email notification when your application is accepted. <br><br> <b>4.</b> Come back to this screen to find the list of bounties and start earning money!]]></string>
     <string name="signed_in_as">Signed into Google account %1$s</string>
     <string name="descrip_bounty_airtime">Buy airtime for any person %1$s</string>
@@ -709,20 +709,20 @@
     <string name="try_again">Try again</string>
     <string name="unknown_login_error">Unknown error, please try again. If error persists, please close the app and restart.</string>
 
-    <string name="no_account_selected_error">Please choose at least one account to add to Stax</string>
+    <string name="no_account_selected_error">Please choose at least one account to add to MomoPay</string>
 
     <!-- IN-APP BANNERS -->
     <string name="banner_permission_title">SIM, SMS, Accessibility &amp; Overlay</string>
-    <string name="banner_permission_desc">Why does Stax ask for these permissions?</string>
+    <string name="banner_permission_desc">Why does MomoPay ask for these permissions?</string>
     <string name="banner_permission_cta"><u>Tap here to find out</u></string>
-    <string name="banner_roundupnews_title">Catch up on the latest Stax Monthly Roundup</string>
+    <string name="banner_roundupnews_title">Catch up on the latest MomoPay Monthly Roundup</string>
     <string name="banner_roundupnews_cta"><u>Tap to read now</u></string>
-    <string name="banner_gist_title">Want exclusive Stax gist?</string>
+    <string name="banner_gist_title">Want exclusive MomoPay gist?</string>
     <string name="banner_gist_cta"><u>Subscribe to our mailing list now</u></string>
     <string name="banner_upvote_title">Build with us! Add/upvote a feature request or report a bug.</string>
     <string name="banner_upvote_cta"><u>Give feedback now</u></string>
-    <string name="stax_banner_img_desc">Stax banner icon</string>
-    <string name="banner_research_title">Want to get paid to make Stax even better?</string>
+    <string name="stax_banner_img_desc">MomoPay banner icon</string>
+    <string name="banner_research_title">Want to get paid to make MomoPay even better?</string>
     <string name="banner_research_cta">Sign up for a research study today</string>
 
     <string name="banner_permission_url">https://joinstax.medium.com/phone-permissions-on-stax-a0ec82533570</string>
@@ -737,14 +737,14 @@
     <string name="test_mode_enabled">Test mode engaged</string>
 
     <string name="faq_title">Frequently asked questions</string>
-    <string name="faq_content"><![CDATA[ %1$s <p/>Still have questions? <p/> <a href="mailto:help@stax.me?subject=Stax-support-%2$s"><u> <b><font color=#1878F9> Email stax support </b><u></a>]]></string>
+    <string name="faq_content"><![CDATA[ %1$s <p/>Still have questions? <p/> <a href="mailto:help@stax.me?subject=MomoPay-support-%2$s"><u> <b><font color=#1878F9> Email MomoPay support </b><u></a>]]></string>
     <string name="loading">Loading…</string>
     <string name="loading_error">Unable to load FAQ, please try again</string>
     <string name="faq_internet_error">This feature requires internet connection, please try again</string>
 
     <string name="working_offline">Working offline</string>
 
-    <string name="marketing_email_optin">Stax can send me emails in the future.</string>
+    <string name="marketing_email_optin">MomoPay can send me emails in the future.</string>
     <string name="email_client_not_found">No email client found on device.</string>
     <string name="enable_call_permission">Please enable call permission to dial USSD code.</string>
 
@@ -804,7 +804,7 @@
 
     <!-- marketing login prompt dialog -->
     <string name="login_dialog_title">Sign In</string>
-    <string name="login_dialog_desc">Please sign in to Stax with Google to be able to receive marketing updates.</string>
+    <string name="login_dialog_desc">Please sign in to MomoPay with Google to be able to receive marketing updates.</string>
     <string name="update_downloaded">An update has just been downloaded.</string>
     <string name="restart">Restart</string>
     <string name="get_rewarded">Get Airtime Bonus</string>
@@ -831,9 +831,9 @@
 
     <!-- Transaction share  -->
     <string name="share_link">https://stax.onelink.me/nR0j/fb15b3f2</string>
-    <string name="airtime_purchase_message">I just bought airtime with Stax app and the best part is - it works offline. Check it out - %1$s</string>
-    <string name="check_balance_message">I just checked my balance with Stax app and the best part is - it works offline. Check it out - %1$s</string>
-    <string name="send_money_message">I just transferred money with Stax app and the best part is - it works offline. Check it out - %1$s</string>
+    <string name="airtime_purchase_message">I just bought airtime with MomoPay app and the best part is - it works offline. Check it out - %1$s</string>
+    <string name="check_balance_message">I just checked my balance with MomoPay app and the best part is - it works offline. Check it out - %1$s</string>
+    <string name="send_money_message">I just transferred money with MomoPay app and the best part is - it works offline. Check it out - %1$s</string>
     <string name="fab_submit">Submit</string>
     <string name="no_tips_available">No tips available.</string>
 
@@ -844,15 +844,15 @@
 
     <!-- Rewards -->
     <string name="beginners_guide_title">Beginner\'s Guide</string>
-    <string name="beginners_guide_airtime">Welcome to Stax! Check your airtime balance to see what Stax can do and earn 100 reward points</string>
+    <string name="beginners_guide_airtime">Welcome to MomoPay! Check your airtime balance to see what MomoPay can do and earn 100 reward points</string>
     <string name="check_airtime_balance">Check Airtime Balance</string>
-    <string name="stax_points">Stax Points</string>
+    <string name="stax_points">MomoPay Points</string>
     <string name="redeem">Redeem</string>
     <string name="recent_points_earned">Recent Points Earned</string>
     <string name="nav_earn">Earn</string>
 
-    <string name="welcome">Welcome to Stax %1$s</string>
-    <string name="welcome_back">Welcome back to Stax %1$s</string>
-    <string name="signed_in_message">You are already signed in to Stax</string>
+    <string name="welcome">Welcome to MomoPay %1$s</string>
+    <string name="welcome_back">Welcome back to MomoPay %1$s</string>
+    <string name="signed_in_message">You are already signed in to MomoPay</string>
 
 </resources>

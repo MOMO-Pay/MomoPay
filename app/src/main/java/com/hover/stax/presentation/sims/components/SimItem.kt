@@ -48,6 +48,7 @@ import com.hover.stax.presentation.components.PrimaryButton
 import com.hover.stax.presentation.components.SecondaryButton
 import com.hover.stax.presentation.components.StaxCard
 import com.hover.stax.ui.theme.TextGrey
+import com.hover.stax.ui.theme.TextWhite
 import com.hover.stax.utils.DateUtils
 import com.hover.stax.utils.Utils
 
@@ -65,7 +66,7 @@ internal fun SimItem(
             val notYetChecked = stringResource(id = R.string.not_yet_checked)
             Text(
                 text = simWithAccount.account.latestBalance ?: notYetChecked,
-                color = TextGrey,
+                color = TextWhite,
                 style = MaterialTheme.typography.body1
             )
 
@@ -76,7 +77,7 @@ internal fun SimItem(
                         id = R.string.as_of,
                         DateUtils.humanFriendlyDateTime(simWithAccount.account.latestBalanceTimestamp)
                     ),
-                    color = TextGrey,
+                    color = TextWhite,
                     style = MaterialTheme.typography.body1
                 )
             }
@@ -85,7 +86,7 @@ internal fun SimItem(
                 text = stringResource(
                     id = R.string.unsupported_sim_info
                 ),
-                color = TextGrey,
+                color = TextWhite,
                 style = MaterialTheme.typography.body2
             )
         }
@@ -172,7 +173,7 @@ private fun SimItemTopRow(
             Text(text = simWithAccount.account.userAlias, style = MaterialTheme.typography.body1)
             Text(
                 text = getSimSlot(simWithAccount.sim, LocalContext.current),
-                color = TextGrey,
+                color = TextWhite,
                 style = MaterialTheme.typography.body2
             )
         }

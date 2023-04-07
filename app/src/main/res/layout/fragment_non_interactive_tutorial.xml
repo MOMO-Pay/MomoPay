@@ -35,7 +35,7 @@
             android:layout_marginEnd="@dimen/margin_16"
             app:fontFamily="@font/brutalista_medium"
             android:text="@string/skip_tutorial"
-            android:textColor="@color/brightBlue"
+            android:textColor="@color/lightYellow"
             android:textSize="@dimen/text_16"
             app:layout_constraintBottom_toBottomOf="@+id/backButton"
             app:layout_constraintEnd_toEndOf="parent"
@@ -51,7 +51,7 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@id/skip_tutorial"
-            app:srcCompat="@drawable/ic_rounded_white" />
+            app:srcCompat="@drawable/ic_momopay_rounded" />
 
     <TextView
             android:id="@+id/variant_v2_nocheckbox_title"

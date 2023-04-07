@@ -33,7 +33,7 @@
             app:layout_constraintBottom_toTopOf="@id/welcomeText"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:srcCompat="@drawable/ic_rounded_white" />
+            app:srcCompat="@drawable/ic_momopay_rounded" />
 
     <TextView
             android:id="@+id/welcomeText"
@@ -132,7 +132,7 @@
             android:layout_marginHorizontal="@dimen/margin_10"
             app:fontFamily="@font/brutalista_medium"
             android:text="@string/skip"
-            android:textColor="@color/brightBlue"
+            android:textColor="@color/lightYellow"
             android:textSize="@dimen/text_15"
             android:layout_marginBottom="@dimen/margin_26"
             app:layout_constraintEnd_toEndOf="parent"

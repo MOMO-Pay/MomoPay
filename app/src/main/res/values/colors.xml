@@ -13,18 +13,25 @@
 -->
 <resources  xmlns:tools="http://schemas.android.com/tools">
 	<color name="colorPrimary" tools:override="true">#292B2C</color>
+<!--	<color name="colorPrimary" tools:override="true">#f8f8f8</color>-->
 	<color name="colorPrimaryDark" tools:override="true">#000A1A</color>
+<!--	<color name="colorPrimaryDark" tools:override="true">#f8f8f8</color>-->
 
-	<color name="colorBackground">#1E2329</color>
-	<color name="colorSurface">#292E34</color>
+	<color name="colorBackground">#696969</color>
+<!--	<color name="colorBackground">#f8f8f8</color>-->
+<!--	<color name="colorSurface">#292E34</color>-->
+	<color name="colorSurface">#808080</color>
 
-	<color name="brightBlue" tools:override="true">#0091E3</color>
+<!--	<color name="brightBlue" tools:override="true">#0091E3</color>-->
+<!--	<color name="brightBlue" tools:override="true">#401438</color>-->
+	<color name="brightBlue" tools:override="true">#F2B705</color>
+	<color name="lightYellow" tools:override="true">#F2B705</color>
 	<color name="brightBluePressed" tools:override="true">#01659E</color>
 	<color name="cardViewColor">#292E34</color>
 	<color name="cardDarkBlue">#1D2735</color>
 	<color name="cardDarkRed">#5A120D</color>
 	<color name="buttonColor">#3A3E45</color>
-	<color name="grey">#B1B2B6</color>
+	<color name="grey">#F8F9FA</color>
 	<color name="offWhite">#F1F1F4</color>
 	<color name="mediumGrey">#838385</color>
 	<color name="darkGrey">#777777</color>
@@ -44,6 +51,7 @@
 	<color name="lighter_grey">#3F434A</color>
 	<color name="icon_blue">#0091E3</color>
 	<color name="faint_blue">#CDE5FE</color>
+	<color name="eerie_black">#212529</color>
 	<color name="button_white">#EDF9FF</color>
 
 	<color name="banner_permission_primary">#1E2329</color>

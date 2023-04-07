@@ -46,7 +46,7 @@ fun TopBar(@StringRes title: Int = R.string.app_name, navTo: (dest: Int) -> Unit
             .padding(all = dimensionResource(id = R.dimen.margin_13)),
     ) {
         HorizontalImageTextView(
-            drawable = R.drawable.stax_logo,
+            drawable = R.drawable.momopay_logo,
             stringRes = title,
             modifier = Modifier.weight(1f),
             MaterialTheme.typography.button

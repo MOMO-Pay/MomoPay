@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright 2023 Stax
+     Copyright 2023 MomoPay
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
      You may obtain a copy of the License at
@@ -53,60 +53,60 @@
 
     <!-- ONBOARDING VARIANT ZERO (DEFAULT)-->
     <string name="stax_tagline">Dhiphina malee maallaqa sochoosuu</string>
-    <string name="splash_screen_img_desc">dugduubee Stax </string>
+    <string name="splash_screen_img_desc">dugduubee MomoPay </string>
     <string name="slide_1_title">Nageenya eegamaa. Ariifataa. Mijataa</string>
     <string name="slide_1_desc">Maallaqa erguu fi herrega baankii fi momo qabdu fayyadamuun yeroo qilleensaa offline bitadhaa</string>
     <string name="onboarding_link_accounts">Amma akkaawuntii keessan walitti hidhaa</string>
 
 
     <!-- ONBOARDING VARIANT_1 -->
-    <string name="onboarding_v1_slide1_title">Stax sarara ala hojjeta</string>
+    <string name="onboarding_v1_slide1_title">MomoPay sarara ala hojjeta</string>
     <string name="onboarding_v1_slide2_title">Maallaqa ergaa</string>
     <string name="onboarding_v1_slide3_title">Maallaqa gaafadhaa</string>
     <string name="onboarding_v1_slide4_title">Yeroo qilleensaa bitachuu</string>
-    <string name="onboarding_v1_general_desc">Muuxannoo Stax guutuu argachuuf Google waliin itti fufaa</string>
+    <string name="onboarding_v1_general_desc">Muuxannoo MomoPay guutuu argachuuf Google waliin itti fufaa</string>
     <string name="continue_with_google">Google waliin itti fufaa</string>
 
     <string name="slide2_desc">Maallaqa haala nageenya qabuu fi salphaatti dabarsuu. Kaffaltii dabalataa hin kaffalamu.</string>
     <string name="slide3_desc">Link salphaa ta\'een maamiltootaa fi hiriyoota irraa saffisaan kaffaltii argadhaa.</string>
     <string name="slide4_desc">Yeroo qilleensaa sekondii muraasa keessatti siifi namoota jaallattuuf guuti.</string>
-    <string name="slide1_desc">Stax interneetii waliin ykn osoo hin qabaatin fayyadamaa. Yeroo kamiyyuu. Bakka kamittuu.</string>
+    <string name="slide1_desc">MomoPay interneetii waliin ykn osoo hin qabaatin fayyadamaa. Yeroo kamiyyuu. Bakka kamittuu.</string>
 
-    <string name="use_stax_no_sigin">Stax osoo hin seenin fayyadami</string>
-    <string name="termsOfServiceFullLabel">Itti fufuudhaan, Haala tajaajila Stax irratti walii galtee jirta.</string>
+    <string name="use_stax_no_sigin">MomoPay osoo hin seenin fayyadami</string>
+    <string name="termsOfServiceFullLabel">Itti fufuudhaan, Haala tajaajila MomoPay irratti walii galtee jirta.</string>
     <string name="privacyPolicyFullLabel">Imaammata Dhuunfaa keenya keessatti akkaataa daataa keessan itti fayyadamnu ilaali.</string>
 
     <!-- ONBOARDING VARIANT_2 -->
-    <string name="welcome_to_stax">Akkam, baga nagaan gara Stax dhuftan.</string>
-    <string name="welcome_to_stax_fullContent">Yoo Stax irratti haaraa taate gaaffii tokko tokko qabaachuu dandeessa, tokko tokko qulqulleessuuf haa gargaarru. Filannoo baay\'ee siif ta\'u filadhu.</string>
-    <string name="onboarding_variant_2_question1">Stax anaaf ta\'aa?</string>
-    <string name="skip_prefix">Waa\'ee stax duraan beektu?</string>
+    <string name="welcome_to_stax">Akkam, baga nagaan gara MomoPay dhuftan.</string>
+    <string name="welcome_to_stax_fullContent">Yoo MomoPay irratti haaraa taate gaaffii tokko tokko qabaachuu dandeessa, tokko tokko qulqulleessuuf haa gargaarru. Filannoo baay\'ee siif ta\'u filadhu.</string>
+    <string name="onboarding_variant_2_question1">MomoPay anaaf ta\'aa?</string>
+    <string name="skip_prefix">Waa\'ee MomoPay duraan beektu?</string>
     <string name="skip">Irra darbuu</string>
 
-    <string name="welcome_title_one">Gara Stax baga nagaan dhuftan!</string>
-    <string name="welcome_sub_one">Gara Hawaasa Stax baga nagaan dhuftan. Ati akka ofiisaatti Staxxer dha. Kunoo wantoota tokko lama waa\'ee Stax si gammachiisu.</string>
+    <string name="welcome_title_one">Gara MomoPay baga nagaan dhuftan!</string>
+    <string name="welcome_sub_one">Gara Hawaasa MomoPay baga nagaan dhuftan. Ati akka ofiisaatti MomoPayer dha. Kunoo wantoota tokko lama waa\'ee MomoPay si gammachiisu.</string>
     <string name="welcome_title_two">Woohoo! Ati sirriitti nama barbaadaa turredha!</string>
 
     <string name="welcome_title_three">Si uwwifnee jirra!</string>
-    <string name="welcome_sub_two">Waa\'ee Stax irratti wantoota si gammachiisan tokko lama kunooti.</string>
+    <string name="welcome_sub_two">Waa\'ee MomoPay irratti wantoota si gammachiisan tokko lama kunooti.</string>
     <string name="intro_feature_one_title">USSD kan ofumaan hojjetu</string>
     <string name="intro_feature_one_desc">Walnyaatinsa koodii USSD dhibbaan lakkaa\'aman yaadachuun hin barbaachisu. Isiniif lakkoofnee jirra.</string>
     <string name="intro_feature_two_title">Maallaqa kee guutummaatti to\'adhu</string>
-    <string name="intro_feature_two_desc">Baankii fi herrega maallaqa moobaayilaa keessan hunda irraa Stax irraa bulchuu fi baasuu.</string>
+    <string name="intro_feature_two_desc">Baankii fi herrega maallaqa moobaayilaa keessan hunda irraa MomoPay irraa bulchuu fi baasuu.</string>
     <string name="intro_feature_three_title">Dizaayiniin nageenya qaba</string>
     <string name="intro_feature_three_desc">Odeeffannoo keessan yeroo hunda nageenya akka qabaatu gochuuf dizaayinoota nageenyaa Android\'n ijaaraman fayyadamne.</string>
-    <string name="explore_btn_text">Stax qoradhu</string>
+    <string name="explore_btn_text">MomoPay qoradhu</string>
 
-    <string name="does_stax_charge_fees">Stax kaffaltii ni kaffalaa?</string>
-    <string name="what_does_stax_do">Stax maal hojjeta?</string>
+    <string name="does_stax_charge_fees">MomoPay kaffaltii ni kaffalaa?</string>
+    <string name="what_does_stax_do">MomoPay maal hojjeta?</string>
 
-    <string name="is_stax_for_you">Stax siif ta\'uu isaa adda baasuuf hamma siif ibsu filadhu</string>
+    <string name="is_stax_for_you">MomoPay siif ta\'uu isaa adda baasuuf hamma siif ibsu filadhu</string>
     <string name="variant_V2_checkbox_option1">Yeroo darbe USSD fayyadameeraa?</string>
     <string name="variant_V2_checkbox_option2">Herrega baankii ykn Mobile Money tokkoo ol qabaa?</string>
     <string name="variant_V2_checkbox_option3">Daataa moobaayila koo yeroo baayyee nan cufa?</string>
     <string name="none_apply">Kanneen keessaa tokkollee hin hojjetu</string>
-    <string name="variant_v2_nocheckbox_desc1">Stax kaffaltii dabalataa si hin kaffalu. Yeroo tokko tokko baankii ykn dhiyeessaan maallaqa moobaayilaa kee daldala raawwachuu keetiin kaffaltii si irraa kaffala.\n\nStax maallaqa meeqa akka si irraa kaffalan hordofa.</string>
-    <string name="variant_v2_nocheckbox_desc2">Stax teknooloojii USSD fayyadamuun sarara ala daldala akka dandeessan taasisa. Stax waliin, hafnaan herrega keessanii ilaaluu, maallaqa erguu, yeroo qilleensaa bitachuu, herrega ofii keessaa maallaqa dabarsuu, herrega faayinaansii (baankii fi maallaqa moobaayilaa) hedduu appii tokko irraa to\'achuu dandeessu.\n\nAkkasumas hidhannoo namoonni Stax qaban biroo danda\'an uumuu dandeessu qarshii siif erguuf itti fayyadami.</string>
+    <string name="variant_v2_nocheckbox_desc1">MomoPay kaffaltii dabalataa si hin kaffalu. Yeroo tokko tokko baankii ykn dhiyeessaan maallaqa moobaayilaa kee daldala raawwachuu keetiin kaffaltii si irraa kaffala.\n\nMomoPay maallaqa meeqa akka si irraa kaffalan hordofa.</string>
+    <string name="variant_v2_nocheckbox_desc2">MomoPay teknooloojii USSD fayyadamuun sarara ala daldala akka dandeessan taasisa. MomoPay waliin, hafnaan herrega keessanii ilaaluu, maallaqa erguu, yeroo qilleensaa bitachuu, herrega ofii keessaa maallaqa dabarsuu, herrega faayinaansii (baankii fi maallaqa moobaayilaa) hedduu appii tokko irraa to\'achuu dandeessu.\n\nAkkasumas hidhannoo namoonni MomoPay qaban biroo danda\'an uumuu dandeessu qarshii siif erguuf itti fayyadami.</string>
 
     <string name="skip_tutorial">Barnoota darbi</string>
 
@@ -137,9 +137,9 @@
     <string name="refresh_balance_error">Hafnaan keessan ilaaluuf herrega itti dabalaa.</string>
 
     <string name="check_balance_title">Hafnaan isaa ilaali</string>
-    <string name="check_balance_desc">Gaarii! Akkaawuntii kee isa jalqabaa itti dabalte. Amma madaallii keessan Stax irratti ilaaluu dandeessu.</string>
-    <string name="check_balance_alt">Gaarii! Account milkaa\'inaan dabalame. Amma madaallii keessan Stax irratti ilaaluu dandeessu.</string>
-    <string name="check_balance_alt_plural">Gaarii! Akkaawuntii milkaa\'inaan dabalame. Amma madaallii keessan Stax irratti ilaaluu dandeessu.</string>
+    <string name="check_balance_desc">Gaarii! Akkaawuntii kee isa jalqabaa itti dabalte. Amma madaallii keessan MomoPay irratti ilaaluu dandeessu.</string>
+    <string name="check_balance_alt">Gaarii! Account milkaa\'inaan dabalame. Amma madaallii keessan MomoPay irratti ilaaluu dandeessu.</string>
+    <string name="check_balance_alt_plural">Gaarii! Akkaawuntii milkaa\'inaan dabalame. Amma madaallii keessan MomoPay irratti ilaaluu dandeessu.</string>
 
     <string name="later">Booda</string>
     <string name="no_connecion">Walitti dhufeenya hin qabu</string>
@@ -149,10 +149,10 @@
     <!-- ADD ACCOUNT -->
     <string name="your_accounts">Akkaawuntii keessan</string>
     <string name="add_an_account">Akkaawuntii itti dabali</string>
-    <string name="add_accounts_to_stax">Akkaawuntii gara Stax tti dabaluu</string>
+    <string name="add_accounts_to_stax">Akkaawuntii gara MomoPay tti dabaluu</string>
 
     <string name="search">Barbaaduu</string>
-    <string name="no_accounts_found_desc"><![CDATA[ Fakkaata "<b><font color="#39CBFC"> %1$s </font> </b>" ammallee Stax irratti hin tarreeffamne ykn galmee isaa sirrii hin taane.<br/>Waan biraa barbaaduuf yaali.]]></string>
+    <string name="no_accounts_found_desc"><![CDATA[ Fakkaata "<b><font color="#39CBFC"> %1$s </font> </b>" ammallee MomoPay irratti hin tarreeffamne ykn galmee isaa sirrii hin taane.<br/>Waan biraa barbaaduuf yaali.]]></string>
     <string name="cant_find_institution">Dhaabbata faayinaansii keessan argachuu hin dandeenyee?</string>
     <string name="inform_us_here">Asirratti nu beeksisaa</string>
 
@@ -162,7 +162,7 @@
     <string name="enter_financial_inst_err">Maqaa dhaabbata faayinaansii galchi</string>
     <string name="enter_shortcode_err">Koodii gabaabaa sirrii galchi</string>
     <string name="thank_you">Galatoomaa</string>
-    <string name="service_request_success_desc">Gareen Stax gamaaggamuu fi yeroo dhiyootti tajaajila kana dabaluudhaaf sirrii akka argatu mirkanaa\'aa</string>
+    <string name="service_request_success_desc">Gareen MomoPay gamaaggamuu fi yeroo dhiyootti tajaajila kana dabaluudhaaf sirrii akka argatu mirkanaa\'aa</string>
 
     <string name="nickname">Maqaa ijoollee</string>
     <string name="label_saved">Fayye</string>
@@ -181,22 +181,22 @@
     <!-- Permissions -->
     <string name="permissions_title">Hayyama barbaachisa</string>
     <string name="permissions_basic_title">Hayyama bilbilaa fi ergaa gabaabaa nuuf kennaa.</string>
-    <string name="perms_basic_desc">Akkaawuntii adda addaa keessan hunda argachuu fi daldala akkaawuntii sana irratti raawwatamu adda baasuuf, Stax bilbilaa fi ergaa gabaabaa keessan akka fayyadamu hayyamaa.</string>
-    <string name="permissions_overlay_desc">Hayyamni kun Stax koodii USSD bakka bu\'ee akka bilbiluu fi haguuggii adeemsa daldalaa sitti agarsiisu akka uumu hayyamu.</string>
-    <string name="permissions_accessibility_desc">Dandeettii hafnaan kee ilaaluu, maallaqa dabarsuu ykn yeroo qilleensaa bitachuu siif kennuudhaaf, Stax hayyama agarsiisaa fi dhaqqabummaa kee barbaada</string>
+    <string name="perms_basic_desc">Akkaawuntii adda addaa keessan hunda argachuu fi daldala akkaawuntii sana irratti raawwatamu adda baasuuf, MomoPay bilbilaa fi ergaa gabaabaa keessan akka fayyadamu hayyamaa.</string>
+    <string name="permissions_overlay_desc">Hayyamni kun MomoPay koodii USSD bakka bu\'ee akka bilbiluu fi haguuggii adeemsa daldalaa sitti agarsiisu akka uumu hayyamu.</string>
+    <string name="permissions_accessibility_desc">Dandeettii hafnaan kee ilaaluu, maallaqa dabarsuu ykn yeroo qilleensaa bitachuu siif kennuudhaaf, MomoPay hayyama agarsiisaa fi dhaqqabummaa kee barbaada</string>
 
 
     <string name="permission_support_desc">ID deeggarsa keessan uumuuf hayyama bilbilaa nu barbaachisa</string>
     <string name="nav_sim_permission">Hayyama SIM kenni</string>
     <string name="perm_dialoghead">Wanti dhumaa tokko&#8230;</string>
-    <string name="perm_dialogbody">Stax hayyama 2 gara %1$s barbaada.</string>
+    <string name="perm_dialogbody">MomoPay hayyama 2 gara %1$s barbaada.</string>
     <string name="use_ussd">USSD fayyadamaa</string>
     <string name="buy_airtime">yeroo qilleensaa bitachuu</string>
     <string name="check_balance">madaallii isaa ilaaluu</string>
     <string name="send_money">maallaqa ergaa</string>
     <string name="send_money_to">maallaqa erguu gara</string>
     <string name="move_money">maallaqa sochoosuu</string>
-    <string name="perm_accessibiltiy_dialogbody">Stax hayyama dhaqqabummaa gara %1$s barbaada</string>
+    <string name="perm_accessibiltiy_dialogbody">MomoPay hayyama dhaqqabummaa gara %1$s barbaada</string>
     <string name="perm_progress1">Tarkaanfii 1ffaa 2ffaa: Hayyama agarsiisi</string>
     <string name="perm_progress2">Tarkaanfii 2ffaa 2ffaa: Hayyama dhaqqabummaa</string>
     <string name="perm_cta1">Sajoo agarsiisi</string>
@@ -317,11 +317,11 @@
     <string name="amount_label_opt">Hanga (Filannoo)</string>
     <string name="reqfrom_label">Gara</string>
     <string name="btn_addcontact">+ Nama biraa itti dabali</string>
-    <string name="sms_request_template">Gaarummaadhaan yeroo dafee siif mijatutti %1$s naaf stax godhii. %2$s %3$s ta\'a</string>
+    <string name="sms_request_template">Gaarummaadhaan yeroo dafee siif mijatutti %1$s naaf MomoPay godhii. %2$s %3$s ta\'a</string>
     <string name="sms_amount_detail">%1$s </string>
     <string name="sms_note_detail">Yaadannoo: \"%1$s\" </string>
     <string name="reqsave_head">Gaaffii qusachuu?</string>
-    <string name="toast_error_smsperm">Stax gaaffiin yoom akka ergamu ykn guutame akka beekuuf hayyama ergaa gabaabaa dubbisaa kennuu qabda.</string>
+    <string name="toast_error_smsperm">MomoPay gaaffiin yoom akka ergamu ykn guutame akka beekuuf hayyama ergaa gabaabaa dubbisaa kennuu qabda.</string>
     <string name="reqsave_msg">Gaaffii keessan waan hin ergine fakkaata. Haala kamiinuu qusachuu barbaadduu?</string>
     <string name="toast_confirm_request">Gaaffiin keessan qusatameera.</string>
     <string name="toast_request_scheduled">Gaaffiin keessan beellama qabamee jira. %1$s irratti ergaa akka ergitu si yaadachiifama</string>
@@ -367,11 +367,11 @@
     <!-- Notifications -->
     <string name="notify_default_title">Fayyadamaa sagantaa qabate</string>
     <string name="notify_default_channel_descrip">Jijjiirraa fi gaaffii siin beellamame gochuuf beeksisa agarsiisi.</string>
-    <string name="notify_transfer">Yeroon maallaqa %1$s Stax waliin dabarsuu amma.</string>
+    <string name="notify_transfer">Yeroon maallaqa %1$s MomoPay waliin dabarsuu amma.</string>
     <string name="notify_transfer_cta">Amma jijjiirraa</string>
-    <string name="notify_request">Yeroon gaaffii maallaqaa gara %1$s Stax waliin erguu amma.</string>
+    <string name="notify_request">Yeroon gaaffii maallaqaa gara %1$s MomoPay waliin erguu amma.</string>
     <string name="notify_request_cta">Gaaffii ergaa</string>
-    <string name="notify_airtime">Yeroon isaa yeroo qilleensa Stax waliin bitachuudha.</string>
+    <string name="notify_airtime">Yeroon isaa yeroo qilleensa MomoPay waliin bitachuudha.</string>
     <string name="notify_airtime_cta">Yeroo qilleensaa bitadhaa</string>
 
     <!-- Details -->
@@ -402,12 +402,12 @@
     <!-- Settings -->
     <string name="meta_cardhead">Filannoowwan</string>
     <string name="share_text">Qooduu</string>
-    <string name="share_stax">Stax waliif qoodaa</string>
+    <string name="share_stax">MomoPay waliif qoodaa</string>
     <string name="first_login_dialoghead">Jalqaba maaloo galmaa\'aa</string>
     <string name="add_referee_info">Odeeffannoo rifaralaa ilaali</string>
     <string name="saved_referral">Rifaralaa qusatame</string>
     <string name="copied">Koppii ta\'e</string>
-    <string name="share_sub">Appii Stax jedhamu</string>
+    <string name="share_sub">Appii MomoPay jedhamu</string>
     <string name="share_explain">Share app karaa&#8230;</string>
     <string name="share_msg">App kana ilaalaa https://play.google.com/store/apps/details?id=com.hover.stax</string>
     <string name="connect_accounts">Akkaawuntii keessan walitti hidhaa</string>
@@ -415,14 +415,14 @@
     <string name="login_google_err">Yeroo Google seentan dogongorri uumameera. Mee irra deebi\'ii yaali.</string>
     <string name="referral_text">Koodii keessan:</string>
     <string name="referral_label">Koodii bakka bu\'aa\'s</string>
-    <string name="privacy_policy_label">Stax App fayyadamuun, imaammata dhuunfaa keenya dubbistee haala tajaajilaa irratti walii galteetta. Dubbisuuf cuqaasaa</string>
+    <string name="privacy_policy_label">MomoPay App fayyadamuun, imaammata dhuunfaa keenya dubbistee haala tajaajilaa irratti walii galteetta. Dubbisuuf cuqaasaa</string>
     <string name="dialog_confirm_logout_header">Ba\'uu Mirkaneessi</string>
     <string name="logout_out_success">Logout milkaa\'eera</string>
     <string name="dialog_confirm_logout_desc">"Ba\'uu akka barbaaddu mirkaneeffatteettaa?"</string>
 
     <string name="name_label">Maqaa keessan guutuu galchaa</string>
     <string name="phone_label">Lakkoofsa bilbilaa keessan galchaa</string>
-    <string name="referral_help">Koodii rifaralaa bakka bu\'aa Stax kan si onboard godhe galchi.</string>
+    <string name="referral_help">Koodii rifaralaa bakka bu\'aa MomoPay kan si onboard godhe galchi.</string>
     <string name="referral_error_blank">Mee koodii rifaralaa galchaa.</string>
     <string name="referral_error_invalid">Maaloo koodii rifaralaa sirrii ta\'e galchaa.</string>
     <string name="referral_error_name">Maaloo maqaa sirrii galchi.</string>
@@ -433,13 +433,13 @@
     <string name="referral_error_try_again">Mee sekondii muraasa booda irra deebi\'ii yaali</string>
 
     <string name="security_cardhead">Nageenya</string>
-    <string name="security_cardbody">Stax ulaagaa 740.17(b)(3) (i) ramaddii nageenyaa Biiroo Industirii fi Nageenyaa Yunaayitid Isteetis kan guute dha. Softiweeriin kun qunnamtii sarvariidhaaf HTTPS fayyadama; symmetric key RSA encryption yeroodhaaf mirkaneessitoota fayyadamaa meeshaa mataa isaanii irratti Android Keystore fayyadamuun kuusuudhaaf; fi DRM fayyadamuun koodii obfuscation.</string>
+    <string name="security_cardbody">MomoPay ulaagaa 740.17(b)(3) (i) ramaddii nageenyaa Biiroo Industirii fi Nageenyaa Yunaayitid Isteetis kan guute dha. Softiweeriin kun qunnamtii sarvariidhaaf HTTPS fayyadama; symmetric key RSA encryption yeroodhaaf mirkaneessitoota fayyadamaa meeshaa mataa isaanii irratti Android Keystore fayyadamuun kuusuudhaaf; fi DRM fayyadamuun koodii obfuscation.</string>
     <string name="defaultacct_label">Herrega durtii</string>
     <string name="manage_account">Herrega Bulchuu</string>
-    <string name="security_head">Stax waliin nageenya qaba</string>
+    <string name="security_head">MomoPay waliin nageenya qaba</string>
     <string name="removeaccount_dialoghead">%1$s amma haqi</string>
     <string name="btn_removeaccount">Herrega irraa haquu</string>
-    <string name="removeaccount_msg">Yeroo barbaaddetti akkaawuntii kee ammas Stax irratti dabaluu dandeessa.</string>
+    <string name="removeaccount_msg">Yeroo barbaaddetti akkaawuntii kee ammas MomoPay irratti dabaluu dandeessa.</string>
     <string name="toast_confirm_removepin">PIN milkaa\'inaan haqameera</string>
     <string name="btn_savepin">PIN qusachuu</string>
     <string name="btn_editpin">PIN gulaali</string>
@@ -451,20 +451,20 @@
     <string name="disclaimer">Maqaaleen oomishaalee, maqaawwan daldalaa, fi mallattoon daldalaa hundi qabeenya abbootii qabeenyaa isaaniiti. Fayyadamni walitti hidhamiinsa hin agarsiisu.</string>
 
     <string name="learn_stax_cardhead">Barachuu</string>
-    <string name="stax_features">Features Fi Kanneen Biroo on Stax</string>
+    <string name="stax_features">Features Fi Kanneen Biroo on MomoPay</string>
     <string name="stax_medium_url">http://joinstax.medium.com/</string>
 
     <string name="contact_stax_cardhead">Qunnamaa</string>
     <string name="twitter" translatable="false">Twitter</string>
     <string name="stax_twitter_url" translatable="false">http://twitter.com/joinstax</string>
-    <string name="receive_stax_updates">Odeeffannoo haaraa Stax fudhadhaa</string>
+    <string name="receive_stax_updates">Odeeffannoo haaraa MomoPay fudhadhaa</string>
 
     <string name="FAQs">Gaaffii fi deebii</string>
-    <string name="request_feature">Stax keessatti amala tokko gaafadhu</string>
+    <string name="request_feature">MomoPay keessatti amala tokko gaafadhu</string>
     <string name="email_support">Email deeggarsa</string>
     <string name="stax_support_email">help@stax.me</string>
     <string name="stax_support_email_mailTo">https://help@stax.me</string>
-    <string name="stax_emailing_subject">Stax deeggarsa id - %1$s</string>
+    <string name="stax_emailing_subject">MomoPay deeggarsa id - %1$s</string>
     <string name="send_email_using">Poostaa erguu fayyadamuun&#8230;</string>
 
     <string name="account_cardhead">Herrega</string>
@@ -472,16 +472,16 @@
     <string name="logged_in_as">Akka %1$s tti seene</string>
 
     <!-- System auth check -->
-    <string name="auth_title">Stax waliin mirkaneessi</string>
+    <string name="auth_title">MomoPay waliin mirkaneessi</string>
     <string name="auth_descrip">Quba keetiin mirkaneessi</string>
     <string name="toast_error_auth">Mirkaneessuun hin milkoofne</string>
 
     <!-- Self destruct -->
-    <string name="destruct_cardbody">Ijaarsi Stax kun yeroon isaa darbeera. \n\nIjaarsa haaraa buufadhu Stax fayyadamuu itti fufuuf.</string>
+    <string name="destruct_cardbody">Ijaarsi MomoPay kun yeroon isaa darbeera. \n\nIjaarsa haaraa buufadhu MomoPay fayyadamuu itti fufuuf.</string>
     <string name="btn_download">Version haaraa buufadhaa</string>
     <string name="uninstall_cardbody">Update keessan download ta\'aa jira. \n\nGosa kana haquuf qaree armaan gadii cuqaasi. Erga buufanni keessan xumuramee booda beeksisa sana tuquun version haaraa sana install godhaa.</string>
     <string name="btn_uninstall">Uninstall gochuu</string>
-    <string name="notify_download_head">stax update gochuu</string>
+    <string name="notify_download_head">MomoPay update gochuu</string>
     <string name="notify_download_body">Buufachaa jira</string>
 
     <!-- Time -->
@@ -509,11 +509,11 @@
     <!-- BOUNTY -->
     <string name="nav_bounty">Badhaasa</string>
     <string name="bounty_title">&#128184;  KAFFALTII ARGADHAA! KAARTAA DHANGALA\'AA USSD</string>
-    <string name="bounty_msg">Stax dhangala\'aa USSD keessa darbuuf USD $5 - $50 siif kaffala.</string>
+    <string name="bounty_msg">MomoPay dhangala\'aa USSD keessa darbuuf USD $5 - $50 siif kaffala.</string>
     <string name="get_started">Jalqabi</string>
     <string name="bounty_email_stage_title">&#128506; KAARTAA DHANGALA\'AA USSD</string>
-    <string name="bounty_email_stage_desc1"><b>Gara Money Mapper baga nagaan dhuftan.</b> Stax USSD nama hundaaf salphisuu barbaada. Stax biyyoota hedduu keessatti namoota hedduutti fiduuf, menu USSD hunda akka addunyaatti kaartaan kaa\'uu qabna. Stax akka Money Mapper tti makamaa fi daldala USSD milkaa\'inaan kaartaa gootan hundaaf $5 - $20 USD argadhaa. Menuuwwan USSD ammallee nu barbaachisan (bounties) fuula itti aanu irratti tarreeffamaniiru. Yeroo baayyee badhaasa haaraa itti daballa!</string>
-    <string name="bounty_email_stage_desc2"><b>1.</b> Herrega Google keetiin seeni.\n<b>2.</b> Herrega baankii ykn maallaqa mobaayilaa kee kamiifuu badhaasa banaa barbaadi.\n<b>3.</b> <a href=" xumuri. https://usehover.notion.site/Requirements-for-successful-bounties-469e965fb21b4467b47a6eb5df82952c">Daldala USSD</a> badhaasa irratti ibsame, akka Hafnaan Sakatta\'uu ykn Yeroo Qilleensaa Bituu.\n <b>4.</b> Bal\'ina daldalaa irra deebi\'ii ilaali. Yoo kufe ykn guutuu hin taane irra deebi\'ii yaali.\n<b>5.</b> Stax ergaawwan kee ni ilaala, kunis guyyoota 7&#8211;10 fudhachuu danda\'a. \n<b>6.</b> Dhuma torbanitti kaffaltii argatta</string>
+    <string name="bounty_email_stage_desc1"><b>Gara Money Mapper baga nagaan dhuftan.</b> MomoPay USSD nama hundaaf salphisuu barbaada. MomoPay biyyoota hedduu keessatti namoota hedduutti fiduuf, menu USSD hunda akka addunyaatti kaartaan kaa\'uu qabna. MomoPay akka Money Mapper tti makamaa fi daldala USSD milkaa\'inaan kaartaa gootan hundaaf $5 - $20 USD argadhaa. Menuuwwan USSD ammallee nu barbaachisan (bounties) fuula itti aanu irratti tarreeffamaniiru. Yeroo baayyee badhaasa haaraa itti daballa!</string>
+    <string name="bounty_email_stage_desc2"><b>1.</b> Herrega Google keetiin seeni.\n<b>2.</b> Herrega baankii ykn maallaqa mobaayilaa kee kamiifuu badhaasa banaa barbaadi.\n<b>3.</b> <a href=" xumuri. https://usehover.notion.site/Requirements-for-successful-bounties-469e965fb21b4467b47a6eb5df82952c">Daldala USSD</a> badhaasa irratti ibsame, akka Hafnaan Sakatta\'uu ykn Yeroo Qilleensaa Bituu.\n <b>4.</b> Bal\'ina daldalaa irra deebi\'ii ilaali. Yoo kufe ykn guutuu hin taane irra deebi\'ii yaali.\n<b>5.</b> MomoPay ergaawwan kee ni ilaala, kunis guyyoota 7&#8211;10 fudhachuu danda\'a. \n<b>6.</b> Dhuma torbanitti kaffaltii argatta</string>
     <string name="descrip_bounty_airtime">Yeroo qilleensaa nama kamiifuu %1$s bitadhaa</string>
     <string name="bounty_airtime_explain">Nama biraatiif yeroo qilleensaa bitadhu %1$s</string>
     <string name="descrip_bounty_p2p">Nama biraatti maallaqa ergaa %1$s</string>
@@ -576,20 +576,20 @@
     <string name="try_again">Ammas yaali</string>
     <string name="unknown_login_error">Dogoggora hin beekamne, maaloo irra deebi\'ii yaali. Yoo dogongorri itti fufe maaloo appicha cufaatii irra deebi\'aa jalqabsiisaa.</string>
 
-    <string name="no_account_selected_error">Maaloo yoo xiqqaate akkaawuntii tokko filachuun Stax irratti dabaluu dandeessu</string>
+    <string name="no_account_selected_error">Maaloo yoo xiqqaate akkaawuntii tokko filachuun MomoPay irratti dabaluu dandeessu</string>
 
     <!-- IN-APP BANNERS -->
     <string name="banner_permission_title">SIM, SMS, Accessibility &amp; Overlay</string>
-    <string name="banner_permission_desc">Stax maaliif hayyama kana gaafata?</string>
+    <string name="banner_permission_desc">MomoPay maaliif hayyama kana gaafata?</string>
     <string name="banner_permission_cta"><u>Kana baruuf as tuqi</u></string>
-    <string name="banner_roundupnews_title">Stax Monthly Roundup isa haaraa qabadhaa</string>
+    <string name="banner_roundupnews_title">MomoPay Monthly Roundup isa haaraa qabadhaa</string>
     <string name="banner_roundupnews_cta"><u>Amma dubbisuuf tuqi</u></string>
-    <string name="banner_gist_title">Stax gist adda ta\'e barbaadduu?</string>
+    <string name="banner_gist_title">MomoPay gist adda ta\'e barbaadduu?</string>
     <string name="banner_gist_cta"><u>Amma tarree ergaa keenyaa subscribe godhaa</u></string>
     <string name="banner_upvote_title">Nu waliin ijaaraa! Gaaffii amala dabaluu/olkaa\'uu ykn dogongora gabaasuu.</string>
     <string name="banner_upvote_cta"><u>Amma yaada kennaa</u></string>
-    <string name="stax_banner_img_desc">Mallattoo baanarii Stax</string>
-    <string name="banner_research_title">Stax daran fooyyessuuf kaffaltii argachuu barbaadduu?</string>
+    <string name="stax_banner_img_desc">Mallattoo baanarii MomoPay</string>
+    <string name="banner_research_title">MomoPay daran fooyyessuuf kaffaltii argachuu barbaadduu?</string>
     <string name="banner_research_cta">Har\'a qorannoo qorannoof galmaa\'aa</string>
 
     <string name="banner_permission_url">https://joinstax.medium.com/phone-permissions-on-stax-a0ec82533570</string>
@@ -604,14 +604,14 @@
     <string name="test_mode_enabled">Haala qormaataa bobba\'eera</string>
 
     <string name="faq_title">Gaaffiiwwan yeroo baay\'ee gaafataman</string>
-    <string name="faq_content"><![CDATA[ %1$s <p/>Still have questions? <p/> <a href="mailto:help@stax.me?subject=Stax-support-%2$s"><u> <b><font color=#1878F9> Email stax support </b><u></a>]]></string>
+    <string name="faq_content"><![CDATA[ %1$s <p/>Still have questions? <p/> <a href="mailto:help@stax.me?subject=MomoPay-support-%2$s"><u> <b><font color=#1878F9> Email MomoPay support </b><u></a>]]></string>
     <string name="loading">Fe\'amaa jira&#8230;</string>
     <string name="loading_error">FAQ fe\'uu hin dandeenye, maaloo irra deebi\'ii yaali</string>
     <string name="faq_internet_error">Amalli kun interneetii barbaada, maaloo irra deebi\'aa yaalaa</string>
 
     <string name="working_offline">Toora ala hojjechuu</string>
 
-    <string name="marketing_email_optin">Stax gara fuulduraatti email naaf erguu danda\'a.</string>
+    <string name="marketing_email_optin">MomoPay gara fuulduraatti email naaf erguu danda\'a.</string>
     <string name="email_client_not_found">Maamiltoonni email meeshaa irratti hin argamne.</string>
     <string name="enable_call_permission">Mee koodii USSD bilbiluuf hayyama bilbilaa dandeessisi.</string>
 
